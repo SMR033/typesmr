@@ -24,3 +24,10 @@ button, summary {
 button, input, select, textarea {
   font: inherit;
 }
+img.six-pistols {
+  transition: transform 0.6s ease;
+}
+
+img.six-pistols:hover {
+  transform: rotate(360deg);
+}
