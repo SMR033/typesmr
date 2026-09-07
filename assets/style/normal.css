@@ -31,3 +31,12 @@ img.six-pistols {
 img.six-pistols:hover {
   transform: rotate(360deg);
 }
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+img.six-pistols:hover {
+  animation: spin 1s linear infinite;
+}
