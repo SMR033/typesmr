@@ -11,6 +11,11 @@ body {
   color-scheme: light dark;
 }
 
+background {
+  background: linear-gradient(blue, purple);
+}
+
+
 img, svg, video {
   display: block;
   max-width: 100%;
