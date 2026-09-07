@@ -3,6 +3,7 @@
 
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
 <img width="1000" height="384" alt="six pistols" src="https://github.com/user-attachments/assets/6dadae8a-30e3-45e2-a946-f10abe921960" />
+<img width="57" height="67" alt="mimikyu" src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b" />
 ## Learning Log
 
 1. Github is mijn primaire keuze geweest als source hosting platform omdat het toegankelijk en bekend is. Het heeft dus een goede reputatie.
