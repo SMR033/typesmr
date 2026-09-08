@@ -36,6 +36,34 @@
         box-shadow: 0 0 30px #b455d477;
       }
 
+      header:hover .side-gif.left {
+        transform: translateX(-18px) scale(1.08);
+      }
+
+      header:hover .side-gif.right {
+        transform: translateX(18px) scale(1.08);
+      }
+
+      .side-gif {
+        position: absolute;
+        top: 50%;
+        z-index: 0;
+        width: 82px;
+        height: 96px;
+        object-fit: contain;
+        transform: translateY(-50%);
+        transition: transform .3s ease;
+      }
+
+      .side-gif.left { left: 12px; }
+      .side-gif.right { right: 12px; }
+
+      header h1,
+      header nav {
+        position: relative;
+        z-index: 1;
+      }
+
       header::before {
         content: "✦  ✧  ✦  ✧  ✦";
         position: absolute;
@@ -51,6 +79,7 @@
         color: #fff;
         font-size: clamp(2.2rem, 8vw, 5rem);
         letter-spacing: .12em;
+        white-space: nowrap;
         text-shadow: 3px 3px #32104e, 0 0 18px #f09cff;
       }
 
@@ -99,21 +128,6 @@
       footer { margin-top: 30px; color: #d5aee4; text-align: center; }
     </style>
 
-    <img
-      width="57"
-      height="67"
-      alt="mimikyu"
-      src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b"
-    />
-    <img
-      class="six-pistols"
-      width="400"
-      height="384"
-      alt="six pistols"
-      src="https://github.com/user-attachments/assets/6dadae8a-30e3-45e2-a946-f10abe921960"
-    />
-    <img src="assets/style/piccies/crobat 1.gif" alt="crobat" />
-
     <title>SMR UNIVERSE</title>
 
     <link rel="stylesheet" href="./assets/style/normal.css" />
@@ -126,6 +140,16 @@
   </head>
   <body>
     <header>
+      <img
+        class="side-gif left"
+        alt="mimikyu"
+        src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b"
+      />
+      <img
+        class="side-gif right"
+        alt="crobat"
+        src="assets/style/piccies/crobat 1.gif"
+      />
       <h1>SMR UNIVERSE</h1>
 
       <nav>
@@ -150,12 +174,14 @@
 
       <article>
         <h2>coming soon...</h2>
-        <p>...</p>
+        <p>This will be something epic soon.... very soon!</p>
       </article>
     </main>
 
     <footer>
-      <p>hihi</p>
+      <p>
+        &copy; 2026 SMR Universe. All rights reserved. | <a href="/privacy.html">Privacy Policy</a>
+      </p>
     </footer>
   </body>
 </html>
