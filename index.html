@@ -36,52 +36,32 @@
         box-shadow: 0 0 30px #b455d477;
       }
 
-      header:hover .side-gif.left {
-        transform: translateX(-18px) scale(1.08);
-      }
-
-      header:hover .side-gif.right {
-        transform: translateX(18px) scale(1.08);
-      }
-
-      .side-gif {
-        position: absolute;
-        top: 50%;
-        z-index: 0;
-        width: 82px;
-        height: 96px;
-        object-fit: contain;
-        transform: translateY(-50%);
-        transition: transform .3s ease;
-      }
-
-      .side-gif.left { left: 12px; }
-      .side-gif.right { right: 12px; }
-
-      header h1,
-      header nav {
-        position: relative;
-        z-index: 1;
-      }
-
-      header::before {
-        content: "✦  ✧  ✦  ✧  ✦";
-        position: absolute;
-        top: 10px;
-        left: 0;
-        right: 0;
-        color: #f5c8ff;
-        letter-spacing: 12px;
-      }
-
       h1 {
         margin: 0 0 22px;
         color: #fff;
-        font-size: clamp(2.2rem, 8vw, 5rem);
-        letter-spacing: .12em;
-        white-space: nowrap;
+        font-size: clamp(2rem, 7vw, 4.5rem);
+        letter-spacing: .06em;
         text-shadow: 3px 3px #32104e, 0 0 18px #f09cff;
       }
+
+      .universe-images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin: 24px 0;
+      }
+
+      .universe-images img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+
+      .mimikyu { width: 57px; height: 67px; }
+      .six-pistols { width: min(400px, 100%); height: auto; }
+      .crobat { width: 180px; }
 
       nav ul {
         display: flex;
@@ -140,16 +120,6 @@
   </head>
   <body>
     <header>
-      <img
-        class="side-gif left"
-        alt="mimikyu"
-        src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b"
-      />
-      <img
-        class="side-gif right"
-        alt="crobat"
-        src="assets/style/piccies/crobat 1.gif"
-      />
       <h1>SMR UNIVERSE</h1>
 
       <nav>
@@ -166,6 +136,24 @@
       </nav>
     </header>
 
+    <div class="universe-images">
+      <img
+        class="mimikyu"
+        width="57"
+        height="67"
+        alt="mimikyu"
+        src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b"
+      />
+      <img
+        class="six-pistols"
+        width="400"
+        height="384"
+        alt="six pistols"
+        src="https://github.com/user-attachments/assets/6dadae8a-30e3-45e2-a946-f10abe921960"
+      />
+      <img class="crobat" src="assets/style/piccies/crobat 1.gif" alt="crobat" />
+    </div>
+
     <main>
       <article>
         <h2>Why is SMR the goat?</h2>
@@ -174,7 +162,7 @@
 
       <article>
         <h2>coming soon...</h2>
-        <p>This will be something epic soon.... very soon!</p>
+        <p>This will be something epic soon.... very</p>
       </article>
     </main>
 
