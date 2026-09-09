@@ -3,10 +3,13 @@
 
 <img width="57" height="67" alt="mimikyu" src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b" />
 
-### ma 31 augustus - Intro dag
+### ma 31 augustus - Intro dag / kickoff
 
 Vandaag begon de dag met een hoorcollege en wat gastsprekers, waarin we werden gemotiveerd om zo aan de slag te gaan met het nieuwe blok en gelijk ook het tweede jaar. 
 Uiteindelijk zijn we daarna met alle tweedejaarsstudenten van ons cluster bij elkaar gaan zitten in 3 open klaslokalen, liepen we de eerste opdrachten door en kregen we al wat theoriestof.
+
+Ik heb nu ook een eigen domeinnaam, namelijk "Typesmr.nl", en die is nu ook gekoppeld aan mijn GitHub. 
+Mijn GitHub is zelf ook gekoppeld via VSCode/VSCodium, zodat ik alles daarop kan aanpassen en alles lekker mee synchroniseer :)
 
 Logout:
 1. Github is mijn primaire keuze geweest als source hosting platform omdat het toegankelijk en bekend is. Het heeft dus een goede reputatie.
