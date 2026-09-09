@@ -39,11 +39,6 @@ De deep dives van Praktische CSS en Interactie: MMD gingen me best gemakkelijk a
 ### vrij 4 september - ziek afgemeld
 
 
-
-
-
-                 
-
 ### ma 7 september - Presentatie html
 
 Vandaag ben ik aan de slag gegaan met het maken van een presentatie omtrent manga en hoe dat mij inspireert om uiteindelijk een mooi product neer te zetten, althans mijn mooie toekomstige digital garden.  
