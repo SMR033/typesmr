@@ -1,5 +1,5 @@
 
-# Model
+# Logboek
 
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
 <img width="1000" height="384" alt="six pistols" src="https://github.com/user-attachments/assets/6dadae8a-30e3-45e2-a946-f10abe921960" />
