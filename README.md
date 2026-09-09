@@ -38,6 +38,10 @@ De deep dives van Praktische CSS en Interactie: MMD gingen me best gemakkelijk a
 
 ### vrij 4 september - ziek afgemeld
 
+
+
+
+
                  
 
 ### ma 7 september - Presentatie html
