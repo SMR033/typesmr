@@ -1,4 +1,4 @@
-h1 { font-family: "ITCKabelStdMedium", system-ui; 
+h1 { font-family: "C:\Users\saaka\OneDrive\Desktop\website\typesmr\assets\type\ITCKabelStdMedium.TTF"
 
 }
 
@@ -41,5 +41,5 @@ img.six-pistols:hover {
 }
 
 img.six-pistols:hover {
-  animation: spin 1s linear;
+  animation: spin 0,7s linear;
 }
