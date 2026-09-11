@@ -1,3 +1,13 @@
+
+@font-face {
+  font-family: "ITCKabelStdMedium";
+  src: C:\Users\saaka\OneDrive\Desktop\website\typesmr\assets\type\ITCKabelStdMedium.TTF
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 :root {
   color-scheme: dark;
   font-family: "Trebuchet MS", sans-serif;
