@@ -1,72 +1,75 @@
-
+/* Laadt je eigen lettertype - koppelt de naam "ITCKabelStdMedium" aan het bestand */
 @font-face {
   font-family: "ITCKabelStdMedium";
   src: url("../type/ITCKabelStdMedium.TTF") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 800; /* let op: je gebruikt dit font verderop met weight 400, dat matcht niet - zie opmerking onderaan */
 }
 
-
+/* Root-variabelen: gelden voor de hele pagina, zijn de basis-fallback */
 :root {
-  color-scheme: dark;
-  font-family: "Trebuchet MS", sans-serif;
-  color: #f8ecff;
-  background: #140b22;
+  color-scheme: dark; /* zegt aan de browser: dit is een dark-theme pagina (scrollbars, form-elementen passen zich aan) */
+  font-family: "Trebuchet MS", sans-serif; /* fallback-font als niks anders gespecificeerd is */
+  color: #f8ecff; /* standaard tekstkleur */
+  background: #140b22; /* achtergrondkleur van de <html>, zichtbaar als body niet de hele hoogte vult */
 }
 
+/* Reset: box-sizing zodat padding/border niet de breedte van elementen opblazen */
 * { box-sizing: border-box; }
 
 body {
-  max-width: 1000px;
-  min-height: 100vh;
-  margin: 0 auto;
-  padding: 24px;
-  font-family: "ITCKabelStdMedium", system-ui;
+  max-width: 1000px; /* pagina wordt niet breder dan 1000px */
+  min-height: 100vh; /* vult minstens het hele scherm */
+  margin: 0 auto; /* centreert de body horizontaal */
+  padding: 24px; /* ruimte rondom de inhoud */
+  font-family: "ITCKabelStdMedium", system-ui; /* jouw custom font, met system-ui als fallback */
   font-weight: 400;
-  background: radial-gradient(circle at top, #522378, #0b221a 65%);
+  background: radial-gradient(circle at top, #522378, #0b221a 65%); /* paars-naar-groen gloed vanaf de bovenkant */
 }
 
+/* De header-box bovenaan met titel + nav */
 header {
-  position: relative;
-  overflow: hidden;
+  position: relative; /* nodig als je later iets absoluut wil positioneren binnenin */
+  overflow: hidden; /* knipt alles af wat buiten de afgeronde randen valt */
   margin-bottom: 28px;
   padding: 42px 22px 28px;
   text-align: center;
   border: 2px solid #d89aff;
-  border-radius: 24px;
-  background: linear-gradient(135deg, #286951, #24113e 78%);
-  box-shadow: 0 0 30px #b455d477;
+  border-radius: 24px; /* afgeronde hoeken */
+  background: linear-gradient(135deg, #286951, #24113e 78%); /* groen-naar-paars gradient */
+  box-shadow: 0 0 30px #b455d477; /* zachte gloed rondom de box */
 }
 
 h1 {
   font-family: "ITCKabelStdMedium", system-ui;
   margin: 0 0 22px;
   color: #fff;
-  font-size: clamp(2rem, 7vw, 4.5rem);
-  letter-spacing: .06em;
-  text-shadow: 3px 3px #32104e, 0 0 18px #f09cff;
+  font-size: clamp(2rem, 7vw, 4.5rem); /* responsive tekstgrootte: min 2rem, max 4.5rem, ertussenin schaalt mee met viewport-breedte */
+  letter-spacing: .06em; /* iets meer ruimte tussen letters */
+  text-shadow: 3px 3px #32104e, 0 0 18px #f09cff; /* twee shadows: een "harde" offset-schaduw + een gloed */
 }
 
+/* Container voor de 3 plaatjes bovenin */
 .universe-images {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  align-items: center; /* verticaal centreren */
+  justify-content: center; /* horizontaal centreren */
+  flex-wrap: wrap; /* plaatjes vallen naar nieuwe regel als het niet past */
   gap: 16px;
   margin: 24px 0;
 }
 
 .universe-images img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* nooit breder dan de container */
+  height: auto; /* hoogte schaalt automatisch mee, geen vervorming */
   object-fit: contain;
 }
 
-.mimikyu { width: 57px; height: 67px; }
-.six-pistols { width: min(400px, 100%); height: auto; }
+/* Losse afmetingen per plaatje */
+.mimikyu { width: 57px; height: 67px; } /* vaste grootte, schaalt niet mee op klein scherm */
+.six-pistols { width: min(400px, 100%); height: auto; } /* max 400px, maar krimpt mee als scherm kleiner is */
 .crobat { width: 180px; }
 
+/* De navigatie-links als horizontale rij pillen */
 nav ul {
   display: flex;
   justify-content: center;
@@ -74,29 +77,31 @@ nav ul {
   gap: 12px;
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none; /* geen bullet points */
 }
 
 nav a {
   display: block;
   padding: 10px 17px;
   color: #fff;
-  text-decoration: none;
+  text-decoration: none; /* geen underline */
   border: 1px solid #e3a8ff;
-  border-radius: 999px;
-  background: #3f1d61cc;
-  transition: .2s ease;
+  border-radius: 999px; /* heel groot getal = altijd volledig rond/pil-vorm */
+  background: #3f1d61cc; /* cc = transparantie (hex alpha) */
+  transition: .2s ease; /* maakt hover-effect soepel ipv abrupt */
 }
 
 nav a:hover {
   color: #32104e;
   background: #f2c5ff;
-  transform: translateY(-2px);
+  transform: translateY(-2px); /* beweegt 2px omhoog bij hover */
 }
 
+/* De grid met de twee kaartjes (article's) */
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /* maakt zoveel kolommen als past, elke kolom minstens 240px breed */
   gap: 20px;
 }
 
@@ -105,12 +110,13 @@ article {
   border: 1px solid #bd72e8;
   border-radius: 18px;
   background: #291541dd;
-  box-shadow: 0 8px 20px #09040f88;
+  box-shadow: 0 8px 20px #09040f88; /* schaduw naar beneden, geeft "zwevend" effect */
 }
 
 h2 { margin-top: 0; color: #e9aaff; }
 footer { margin-top: 30px; color: #d5aee4; text-align: center; }
 
+/* Algemene regel: media-elementen worden nooit breder dan hun container */
 img, svg, video {
   display: block;
   max-width: 100%;
@@ -118,19 +124,20 @@ img, svg, video {
 }
 
 button, summary {
-  cursor: pointer;
+  cursor: pointer; /* handje-cursor bij hover, ook al zijn dit geen links */
 }
 
 button, input, select, textarea {
-  font: inherit;
+  font: inherit; /* deze elementen erven het lettertype van de pagina, ipv hun eigen standaard font */
 }
 
+/* Alleen op six-pistols: soepele overgang voorbereid voor de animatie hieronder */
 img.six-pistols {
   transition: transform 1s ease;
 }
 
 img.six-pistols:hover {
-  animation: spin 0.7s linear;
+  animation: spin 0.7s linear; /* draait 360° in 0.7 sec bij hover */
 }
 
 @keyframes spin {
