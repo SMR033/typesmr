@@ -32,9 +32,9 @@ header {
   margin-bottom: 28px;
   padding: 42px 22px 28px;
   text-align: center;
-  border: 2px solid #d89aff;
+  border: 2px solid #fff79a;
   border-radius: 24px; 
-  background: linear-gradient(135deg, #286951, #24113e 78%); 
+  background: linear-gradient(135deg, #ff0000, #ff9100 78%); 
   box-shadow: 0 0 30px #b455d477; 
 }
 
@@ -44,7 +44,7 @@ h1 {
   color: #fff;
   font-size: clamp(2rem, 7vw, 4.5rem); 
   letter-spacing: .06em; 
-  text-shadow: 3px 3px #fe0d62, 0 0 18px #64ff86; 
+  text-shadow: 3px 3px #ff0000, 0 0 18px #ff0000; 
 }
 
 
@@ -62,10 +62,10 @@ h1 {
   height: auto; 
   object-fit: contain;
 }
+<!--- afbeeldingen --->
 
-
-.mimikyu { width: 57px; height: 67px; } 
-.six-pistols { width: min(400px, 100%); height: auto; } 
+.mimikyu { width: px; height: 67px; } 
+.six-pistols { width: min(100px, 100%); height: min(100px, 100%); } 
 .crobat { width: 180px; }
 
 
