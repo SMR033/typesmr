@@ -1,51 +1,50 @@
-/* Laadt je eigen lettertype - koppelt de naam "ITCKabelStdMedium" aan het bestand */
 @font-face {
   font-family: "ITCKabelStdMedium";
   src: url("../type/ITCKabelStdMedium.TTF") format("truetype");
-  font-weight: 800; /* let op: je gebruikt dit font verderop met weight 400, dat matcht niet - zie opmerking onderaan */
+  font-weight: 800; 
 }
 
-/* Root-variabelen: gelden voor de hele pagina, zijn de basis-fallback */
+
 :root {
-  color-scheme: dark; /* zegt aan de browser: dit is een dark-theme pagina (scrollbars, form-elementen passen zich aan) */
-  font-family: "Trebuchet MS", sans-serif; /* fallback-font als niks anders gespecificeerd is */
-  color: #f8ecff; /* standaard tekstkleur */
-  background: #140b22; /* achtergrondkleur van de <html>, zichtbaar als body niet de hele hoogte vult */
+  color-scheme: dark; 
+  font-family: "Trebuchet MS", sans-serif; 
+  color: #f8ecff; 
+  background: #140b22; 
 }
 
-/* Reset: box-sizing zodat padding/border niet de breedte van elementen opblazen */
+
 * { box-sizing: border-box; }
 
 body {
-  max-width: 1000px; /* pagina wordt niet breder dan 1000px */
-  min-height: 100vh; /* vult minstens het hele scherm */
-  margin: 0 auto; /* centreert de body horizontaal */
-  padding: 24px; /* ruimte rondom de inhoud */
-  font-family: "ITCKabelStdMedium", system-ui; /* jouw custom font, met system-ui als fallback */
+  max-width: 1000px; 
+  min-height: 100vh; 
+  margin: 0 auto; 
+  padding: 24px; 
+  font-family: "ITCKabelStdMedium", system-ui; 
   font-weight: 400;
-  background: radial-gradient(circle at top, #522378, #0b221a 65%); /* paars-naar-groen gloed vanaf de bovenkant */
+  background: radial-gradient(circle at top, #522378, #0b221a 65%); 
 }
 
-/* De header-box bovenaan met titel + nav */
+
 header {
-  position: relative; /* nodig als je later iets absoluut wil positioneren binnenin */
-  overflow: hidden; /* knipt alles af wat buiten de afgeronde randen valt */
+  position: relative; 
+  overflow: hidden; 
   margin-bottom: 28px;
   padding: 42px 22px 28px;
   text-align: center;
   border: 2px solid #d89aff;
-  border-radius: 24px; /* afgeronde hoeken */
-  background: linear-gradient(135deg, #286951, #24113e 78%); /* groen-naar-paars gradient */
-  box-shadow: 0 0 30px #b455d477; /* zachte gloed rondom de box */
+  border-radius: 24px; 
+  background: linear-gradient(135deg, #286951, #24113e 78%); 
+  box-shadow: 0 0 30px #b455d477; 
 }
 
 h1 {
   font-family: "ITCKabelStdMedium", system-ui;
   margin: 0 0 22px;
   color: #fff;
-  font-size: clamp(2rem, 7vw, 4.5rem); /* responsive tekstgrootte: min 2rem, max 4.5rem, ertussenin schaalt mee met viewport-breedte */
-  letter-spacing: .06em; /* iets meer ruimte tussen letters */
-  text-shadow: 3px 3px #32104e, 0 0 18px #f09cff; /* twee shadows: een "harde" offset-schaduw + een gloed */
+  font-size: clamp(2rem, 7vw, 4.5rem); 
+  letter-spacing: .06em; 
+  text-shadow: 3px 3px #fe0d62, 0 0 18px #64ff86; 
 }
 
 
