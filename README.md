@@ -63,5 +63,7 @@ Je hebt je onderdelen al ingedeeld in een one-column layout.  Nu ga je onderzoek
 3. Ik denk dat er verandering nodig zijn van layout en vormgeving op het moment als alles b.v niet gecenreerd is en of niet goed te lezen/ te zien is
 4. Notities: 
 
-check-out:
-Een website wordt lelijk op het moment dat je geen spacing,
+check-out (what did i learn):
+-Een website wordt lelijk op het moment dat je geen spacing,grid en code zodat alles responsive wordt.
+- Die van mij is al responsive maar ik wil op dit moment even experimenteren met thema's (zoals light en dark mode) en allerlei verschillende hover animations.
+- Ik denk mijn website tot nu toe in webby vocabulair uit te leggen aldus ik even de tijd neem om alles weer goed in te soaken.
