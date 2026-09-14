@@ -52,3 +52,16 @@ Presentatie, sfeerwoorden, sfeerstijlen en crazy 8's
 <img width="762" height="537" alt="crazy 8" src="https://github.com/user-attachments/assets/2b612753-ae24-479c-bb43-88755353122a" />
 
 
+### ma 14 september - biweekly geek + responsive design uitleg
+Vandaag waren we aan de slag met Vasilis
+
+Opdracht 16 - van one column layout naar een responsive design
+Je hebt je onderdelen al ingedeeld in een one-column layout.  Nu ga je onderzoeken hoe diezelfde onderdelen zich zouden kunnen herschikken als je meer ruimte hebt.
+
+1. Ik ben met Giel in een duo om elkaars site te bekijken.
+2. Giel's site waarvan ik moest kijken of die responsive is was goed responsief op de telefoon al zat er een kleine afwijking waardoor die niet recht in het midden zat
+3. Ik denk dat er verandering nodig zijn van layout en vormgeving op het moment als alles b.v niet gecenreerd is en of niet goed te lezen/ te zien is
+4. Notities: 
+
+check-out:
+Een website wordt lelijk op het moment dat je geen spacing,
