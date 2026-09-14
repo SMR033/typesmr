@@ -16,13 +16,13 @@
 * { box-sizing: border-box; }
 
 body {
-  max-width: 1500px; 
+  max-width: 1000px; 
   min-height: 100vh; 
   margin: 0 auto; 
   padding: 24px; 
   font-family: "ITCKabelStdMedium", system-ui; 
   font-weight: 400;
-  background: radial-gradient(circle at top, #522378, #0b221a 65%); 
+  background: radial-gradient(circle at top, #ffffff, #020202 65%); 
 }
 
 
