@@ -48,28 +48,28 @@ h1 {
   text-shadow: 3px 3px #32104e, 0 0 18px #f09cff; /* twee shadows: een "harde" offset-schaduw + een gloed */
 }
 
-/* Container voor de 3 plaatjes bovenin */
+
 .universe-images {
   display: flex;
-  align-items: center; /* verticaal centreren */
-  justify-content: center; /* horizontaal centreren */
-  flex-wrap: wrap; /* plaatjes vallen naar nieuwe regel als het niet past */
+  align-items: center; 
+  justify-content: center; 
+  flex-wrap: wrap; 
   gap: 16px;
   margin: 24px 0;
 }
 
 .universe-images img {
-  max-width: 100%; /* nooit breder dan de container */
-  height: auto; /* hoogte schaalt automatisch mee, geen vervorming */
+  max-width: 100%; 
+  height: auto; 
   object-fit: contain;
 }
 
-/* Losse afmetingen per plaatje */
-.mimikyu { width: 57px; height: 67px; } /* vaste grootte, schaalt niet mee op klein scherm */
-.six-pistols { width: min(400px, 100%); height: auto; } /* max 400px, maar krimpt mee als scherm kleiner is */
+
+.mimikyu { width: 57px; height: 67px; } 
+.six-pistols { width: min(400px, 100%); height: auto; } 
 .crobat { width: 180px; }
 
-/* De navigatie-links als horizontale rij pillen */
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -77,31 +77,30 @@ nav ul {
   gap: 12px;
   margin: 0;
   padding: 0;
-  list-style: none; /* geen bullet points */
 }
 
 nav a {
   display: block;
   padding: 10px 17px;
   color: #fff;
-  text-decoration: none; /* geen underline */
+  text-decoration: none; 
   border: 1px solid #e3a8ff;
-  border-radius: 999px; /* heel groot getal = altijd volledig rond/pil-vorm */
-  background: #3f1d61cc; /* cc = transparantie (hex alpha) */
-  transition: .2s ease; /* maakt hover-effect soepel ipv abrupt */
+  border-radius: 999px; 
+  background: #3f1d61cc; 
+  transition: .2s ease; 
 }
 
 nav a:hover {
   color: #32104e;
   background: #f2c5ff;
-  transform: translateY(-2px); /* beweegt 2px omhoog bij hover */
+  transform: translateY(-2px); 
 }
 
-/* De grid met de twee kaartjes (article's) */
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  /* maakt zoveel kolommen als past, elke kolom minstens 240px breed */
+ 
   gap: 20px;
 }
 
@@ -110,13 +109,13 @@ article {
   border: 1px solid #bd72e8;
   border-radius: 18px;
   background: #291541dd;
-  box-shadow: 0 8px 20px #09040f88; /* schaduw naar beneden, geeft "zwevend" effect */
+  box-shadow: 0 8px 20px #09040f88; 
 }
 
 h2 { margin-top: 0; color: #e9aaff; }
 footer { margin-top: 30px; color: #d5aee4; text-align: center; }
 
-/* Algemene regel: media-elementen worden nooit breder dan hun container */
+
 img, svg, video {
   display: block;
   max-width: 100%;
@@ -124,20 +123,20 @@ img, svg, video {
 }
 
 button, summary {
-  cursor: pointer; /* handje-cursor bij hover, ook al zijn dit geen links */
+  cursor: pointer; 
 }
 
 button, input, select, textarea {
-  font: inherit; /* deze elementen erven het lettertype van de pagina, ipv hun eigen standaard font */
+  font: inherit; 
 }
 
-/* Alleen op six-pistols: soepele overgang voorbereid voor de animatie hieronder */
+
 img.six-pistols {
   transition: transform 1s ease;
 }
 
 img.six-pistols:hover {
-  animation: spin 0.7s linear; /* draait 360° in 0.7 sec bij hover */
+  animation: spin 0.7s linear;
 }
 
 @keyframes spin {
