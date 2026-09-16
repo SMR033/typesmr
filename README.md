@@ -36,7 +36,7 @@ De deep dives van Praktische CSS en Interactie: MMD gingen me best gemakkelijk a
 
 
 
-### vrij 4 september - ziek afgemeld
+### vrij 4 september - Ziek afgemeld
 
 
 ### ma 7 september - Presentatie html
@@ -52,7 +52,7 @@ Presentatie, sfeerwoorden, sfeerstijlen en crazy 8's
 <img width="762" height="537" alt="crazy 8" src="https://github.com/user-attachments/assets/2b612753-ae24-479c-bb43-88755353122a" />
 
 
-### ma 14 september - biweekly geek + responsive design uitleg
+### ma 14 september - Biweekly geek + responsive design uitleg
 Vandaag waren we aan de slag met Vasilis
 
 Opdracht 16 - van one column layout naar een responsive design
@@ -67,3 +67,10 @@ check-out (what did i learn):
 -Een website wordt lelijk op het moment dat je geen spacing,grid en code zodat alles responsive wordt.
 - Die van mij is al responsive maar ik wil op dit moment even experimenteren met thema's (zoals light en dark mode) en allerlei verschillende hover animations.
 - Ik denk mijn website tot nu toe in webby vocabulair uit te leggen aldus ik even de tijd neem om alles weer goed in te soaken.
+
+### woe 16 september - Theorie Gestalt en ontwerpprincipes
+we kregen vandaag les in design omtrent in webdesign.
+denken vanuit een patroon, ook al zijn er lijnen / vormen niet verbonden. Een layout is een ordening van elementen die samen een verhaal vertellen waardoor je site netter en duidelijker kan voor vertonen.
+
+
+
