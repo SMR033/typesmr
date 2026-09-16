@@ -72,5 +72,13 @@ check-out (what did i learn):
 we kregen vandaag les in design omtrent in webdesign.
 denken vanuit een patroon, ook al zijn er lijnen / vormen niet verbonden. Een layout is een ordening van elementen die samen een verhaal vertellen waardoor je site netter en duidelijker kan voor vertonen.
 
+checkout: 
+3 gestalten design principes:
+nabijheid, Contrast in grootte en kleur
+
+Met grids kan je ervoor zorgen dat alles niet persee vastplakt en mooi een eigen plaatje krijgt het zorgt dus ervoor dat je  mooie secties creert 
+
+ik neem de contrast in kleur en grootte samen met de grids mee in mijn nieuwe iteratie van mijn site
+
 
 
