@@ -1,4 +1,3 @@
-
 # Logboek
 
 <img width="57" height="67" alt="mimikyu" src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b" />
@@ -51,6 +50,7 @@ Presentatie, sfeerwoorden, sfeerstijlen en crazy 8's
 <img width="977" height="942" alt="stap 3" src="https://github.com/user-attachments/assets/58777080-ad57-415f-99ed-6eb39ce92047" />
 <img width="762" height="537" alt="crazy 8" src="https://github.com/user-attachments/assets/2b612753-ae24-479c-bb43-88755353122a" />
 
+### vrij 11 september - 
 
 ### ma 14 september - Biweekly geek + responsive design uitleg
 Vandaag waren we aan de slag met Vasilis
@@ -80,5 +80,14 @@ Met grids kan je ervoor zorgen dat alles niet persee vastplakt en mooi een eigen
 
 ik neem de contrast in kleur en grootte samen met de grids mee in mijn nieuwe iteratie van mijn site
 
+### vrij 18 september - 
 
+### ma 21 september - 
 
+### woe 23 september - 
+
+### vrij 25 september - 
+
+### ma 28 september - 
+
+### woe 30 september -
