@@ -42,7 +42,11 @@ Wat me verwondert is dat MDN "Debugging HTML" letterlijk als eigen apart hoofdst
    
 
 ### wo 2 september - Deep dives
-De deep dives van Praktische CSS en Interactie: MMD gingen me best gemakkelijk af en ik vond het best leuk. Ik heb er ook buiten school nog aan gezeten om voor mezelf alles goed te begrijpen, vooral bij de code was het nog even koekeloeren hier en daar.
+De deep dives van Praktische CSS en Interactie: MMD gingen me best gemakkelijk af en ik vond het best leuk. Ik heb er ook buiten school nog aan gezeten om voor mezelf alles goed te begrijpen, vooral bij de code was het nog even koekeloeren hier en daar. Het ging vooral om hoe je shadows, skews en nog veel meer dingen kon aanpassen op tekst, maar ook op borders en achtergronden. 
+
+Van Sanne kregen we de tijd om aan de slag te gaan tijdens de deep dive, en er werd ook geholpen vanuit mijn medestudenten. Ik heb in ieder geval nu onder de knie hoe ik een box shadow en een soort neonachtige gloed kan geven aan borders of eventueel tekst, wat me nog meer vrijheid geeft om mijn site te customizen.
+
+
 <img width="1067" height="755" alt="wok menu" src="https://github.com/user-attachments/assets/b783f314-044e-471c-a9f6-9d9eb67739f8" />
 
 <img width="1522" height="662" alt="deep dive praktische css" src="https://github.com/user-attachments/assets/c1c65800-2e9c-49aa-9a1b-cdc13588c227" />
