@@ -23,8 +23,22 @@ antwoorden:
    Ik heb dit gedaan via transip en het dan geconnect met github
 3. Je kan je website aanpassen door de code aan te passen via vscode of vcodium en het via github te uploaden en opslaan
 
-### di 1 september - Intro dag
+### di 1 september - Deep dive HTML & CSS basics studeren
+Zelfstudie: Wat ik begreep van de 3 pagina's (Interneting Is Hard)
 
+Oke dus die eerste 3 hoofdstukken van interneting is hard leggen eigenlijk gewoon de basics uit voordat je uberhaupt gaat coden. HTML, CSS en JS zijn dus 3 aparte talen die alle 3 wat anders doen: HTML is de content zelf (dus wat er staat), CSS is hoe het eruit ziet, en JS is de interactie/gedrag. Ze noemen het zelf ook een beetje zoals bij printers vroeger: content neerzetten en dan opmaken, alleen dan digitaal en nog moeilijker vind ik zelf, voor nu dan....
+
+Bij "Basic Web Pages" ging het echt over de skeleton van een pagina: <!DOCTYPE html>, dan <html> met daarin <head> (metadata, zie je niet) en <body> (de content die je wel ziet). Daarna paragrafen, headings (h1 t/m h6), lijsten (ul/ol), en inline elements zoals <em> en <strong>. Wat ik wel interessant vond is dat ze benadrukken dat je géén <b> of <i> meer moet gebruiken want die zeggen niks over de betekenis, alleen over hoe het eruitziet, en dat hoort bij CSS thuis, niet bij HTML.
+
+Bij "Hello, CSS" leerde ik hoe je die twee dingen (HTML en CSS) aan elkaar koppelt via een <link/> tag in de head, en hoe een CSS regel is opgebouwd (selector + declarations in accolades). Ook het verschil tussen px en em snap ik nu beter, em is relatief aan de basis fontsize, dus als je die verandert schaalt alles mee. En de "cascade" is dus letterlijk de volgorde van precedence: browser default → externe stylesheet → style tag in de pagina zelf → inline style, waarbij inline altijd wint (maar dat moet je dus eigenlijk nooit doen).
+
+2 vragen die ik zou willen stellen:
+
+1.Als inline styles zo slecht zijn omdat ze niet herbruikbaar zijn, waarom bestaat die optie dan uberhaupt nog in HTML/CSS, is dat puureerbetoon achtig iets of zijn er nog situaties1. waar het wel handig is?
+2.Ze zeggen dat je bij em units je hele pagina kan laten meeschalen als je de basis fontsize aanpast, maar hoe werkt dat dan bij geneste elementen (bv een span in een p in een div), telt em dan op vanaf de parent of vanaf de root?
+Wat me verwondert (MDN, mee naar de les)
+
+Wat me verwondert is dat MDN "Debugging HTML" letterlijk als eigen apart hoofdstuk heeft naast alle content-lessen. Ik had niet verwacht dat foutzoeken in HTML zo'n eigen ding is, ik dacht altijd dat HTML zo simpel is dat er weinig mis kan gaan (in tegenstelling tot CSS/JS waar debuggen logischer voelt), maar blijkbaar is dat serieus genoeg om er een losse les aan te wijden.
    
 
 ### wo 2 september - Deep dives
@@ -38,9 +52,10 @@ De deep dives van Praktische CSS en Interactie: MMD gingen me best gemakkelijk a
 ### vrij 4 september - Ziek afgemeld
 
 
-### ma 7 september - Presentatie html
+### ma 7 september - Sprint planning + WS 1
 
 Vandaag ben ik aan de slag gegaan met het maken van een presentatie omtrent manga en hoe dat mij inspireert om uiteindelijk een mooi product neer te zetten, althans mijn mooie toekomstige digital garden.  
+checkout:
 
 ### woe 9 september - Presentatie geven + visual research
 Presentatie, sfeerwoorden, sfeerstijlen en crazy 8's 
@@ -68,6 +83,7 @@ check-out (what did i learn):
 - Die van mij is al responsive maar ik wil op dit moment even experimenteren met thema's (zoals light en dark mode) en allerlei verschillende hover animations.
 - Ik denk mijn website tot nu toe in webby vocabulair uit te leggen aldus ik even de tijd neem om alles weer goed in te soaken.
 
+
 ### woe 16 september - Theorie Gestalt en ontwerpprincipes
 we kregen vandaag les in design omtrent in webdesign.
 denken vanuit een patroon, ook al zijn er lijnen / vormen niet verbonden. Een layout is een ordening van elementen die samen een verhaal vertellen waardoor je site netter en duidelijker kan voor vertonen.
@@ -80,6 +96,8 @@ Met grids kan je ervoor zorgen dat alles niet persee vastplakt en mooi een eigen
 
 ik neem de contrast in kleur en grootte samen met de grids mee in mijn nieuwe iteratie van mijn site
 
+
+
 ### vrij 18 september - 
 
 ### ma 21 september - 
@@ -90,4 +108,4 @@ ik neem de contrast in kleur en grootte samen met de grids mee in mijn nieuwe it
 
 ### ma 28 september - 
 
-### woe 30 september -
+### woe 30 september - 
