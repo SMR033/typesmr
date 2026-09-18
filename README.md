@@ -84,21 +84,25 @@ check-out (what did i learn):
 - Ik denk mijn website tot nu toe in webby vocabulair uit te leggen aldus ik even de tijd neem om alles weer goed in te soaken.
 
 
-### woe 16 september - Theorie Gestalt en ontwerpprincipes
-we kregen vandaag les in design omtrent in webdesign.
-denken vanuit een patroon, ook al zijn er lijnen / vormen niet verbonden. Een layout is een ordening van elementen die samen een verhaal vertellen waardoor je site netter en duidelijker kan voor vertonen.
+### woe 16 september - Theorie Gestalt, ontwerpprincipes & deep dive grid
+We kregen vandaag les in design omtrent webdesign.
 
-checkout: 
-3 gestalten design principes:
-nabijheid, Contrast in grootte en kleur
+Denken vanuit een patroon, ook al zijn er lijnen/vormen niet verbonden. Een layout is een ordening van elementen die samen een verhaal vertellen, waardoor je je site netter en duidelijker kan vertonen.
 
-Met grids kan je ervoor zorgen dat alles niet persee vastplakt en mooi een eigen plaatje krijgt het zorgt dus ervoor dat je  mooie secties creert 
+Vandaag kregen we een presentatie over grids van Vasilus, wat super handig was, maar al gedaan was door mij. Ik had namelijk op YouTube een korte video gevonden die ook makkelijk laat zien hoe het werkt en welke code je ervoor kan gebruiken, dus daar heb ik dan nu ook mee gewerkt en zo mijn website voorzien van grids en het responsive gehouden, wat ook te zien was in de tutorial: https://www.youtube.com/watch?v=JYfiaSKeYhE&pp=ygUbaG93IHRvIGRvIGdyaWQgZm9yIGh0bWwgY3Nz & https://youtu.be/eHaZlFcGl6k?si=mh7kiP_SKOkbF1jY
 
-ik neem de contrast in kleur en grootte samen met de grids mee in mijn nieuwe iteratie van mijn site
+Checkout:
+
+3 Gestalt designprincipes:
+Nabijheid, contrast in grootte en kleur.
+
+Met grids kan je ervoor zorgen dat alles niet per se vastplakt en mooi een eigen plekje krijgt. Het zorgt er dus voor dat je mooie secties creëert.
+
+Ik neem contrast in kleur en grootte, samen met de grids, mee in mijn nieuwe iteratie van mijn site.
 
 
 
-### vrij 18 september - 
+### vrij 18 september - Afsluiting sprint 1
 
 ### ma 21 september - 
 
