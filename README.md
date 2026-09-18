@@ -28,9 +28,9 @@ Zelfstudie: Wat ik begreep van de 3 pagina's (Interneting Is Hard)
 
 Oke dus die eerste 3 hoofdstukken van interneting is hard leggen eigenlijk gewoon de basics uit voordat je uberhaupt gaat coden. HTML, CSS en JS zijn dus 3 aparte talen die alle 3 wat anders doen: HTML is de content zelf (dus wat er staat), CSS is hoe het eruit ziet, en JS is de interactie/gedrag. Ze noemen het zelf ook een beetje zoals bij printers vroeger: content neerzetten en dan opmaken, alleen dan digitaal en nog moeilijker vind ik zelf, voor nu dan....
 
-Bij "Basic Web Pages" ging het echt over de skeleton van een pagina: <!DOCTYPE html>, dan <html> met daarin <head> (metadata, zie je niet) en <body> (de content die je wel ziet). Daarna paragrafen, headings (h1 t/m h6), lijsten (ul/ol), en inline elements zoals <em> en <strong> </strong> . Wat ik wel interessant vond is dat ze benadrukken dat je géén <b> of <i> meer moet gebruiken want die zeggen niks over de betekenis, alleen over hoe het eruitziet, en dat hoort bij CSS thuis, niet bij HTML dus wat best logisch is
+Bij "Basic Web Pages" ging het echt over de skeleton van een pagina: `<!DOCTYPE html>`, dan `<html>`...`</html>` met daarin `<head>`...`</head>` (metadata, zie je niet) en `<body>`...`</body>` (de content die je wel ziet). Daarna paragrafen, headings (h1 t/m h6), lijsten (ul/ol), en inline elements zoals `<em>`...`</em>` en `<strong>`...`</strong>`. Wat ik wel interessant vond is dat ze benadrukken dat je géén `<b>`...`</b>` of `<i>`...`</i>` meer moet gebruiken want die zeggen niks over de betekenis, alleen over hoe het eruitziet, en dat hoort bij CSS thuis, niet bij HTML dus wat best logisch is
 
-Bij "Hello, CSS" leerde ik hoe je die twee dingen (HTML en CSS) aan elkaar koppelt via een <link/> tag in de head, en hoe een CSS regel is opgebouwd (selector + declarations in accolades). Ook het verschil tussen px en em snap ik nu beter, em is relatief aan de basis fontsize, dus als je die verandert schaalt alles mee. En de "cascade" is dus letterlijk de volgorde van precedence: browser default → externe stylesheet → style tag in de pagina zelf → inline style, waarbij inline altijd wint (maar dat moet je dus eigenlijk nooit doen).
+Bij "Hello, CSS" leerde ik hoe je die twee dingen (HTML en CSS) aan elkaar koppelt via een `<link/>` tag in de head, en hoe een CSS regel is opgebouwd (selector + declarations in accolades). Ook het verschil tussen px en em snap ik nu beter, em is relatief aan de basis fontsize, dus als je die verandert schaalt alles mee. En de "cascade" is dus letterlijk de volgorde van precedence: browser default → externe stylesheet → style tag in de pagina zelf → inline style, waarbij inline altijd wint (maar dat moet je dus eigenlijk nooit doen).
 
 2 vragen die ik zou willen stellen:
 
@@ -108,4 +108,4 @@ ik neem de contrast in kleur en grootte samen met de grids mee in mijn nieuwe it
 
 ### ma 28 september - 
 
-### woe 30 september - 
+### woe 30 september -
