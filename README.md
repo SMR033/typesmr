@@ -46,6 +46,8 @@ De deep dives van Praktische CSS en Interactie: MMD gingen me best gemakkelijk a
 
 Van Sanne kregen we de tijd om aan de slag te gaan tijdens de deep dive, en er werd ook geholpen vanuit mijn medestudenten. Ik heb in ieder geval nu onder de knie hoe ik een box shadow en een soort neonachtige gloed kan geven aan borders of eventueel tekst, wat me nog meer vrijheid geeft om mijn site te customizen.
 
+Nicky daarintegen gaaf ons les in het designen dus meer zo van hoe geef ik aan wat urgent is welke stappen je moet doorlopen bij bv een online menu wat super leuk was aangezien ik mediavormgeving heb gedaan op mbo 4
+
 
 <img width="1067" height="755" alt="wok menu" src="https://github.com/user-attachments/assets/b783f314-044e-471c-a9f6-9d9eb67739f8" />
 
@@ -59,7 +61,7 @@ Van Sanne kregen we de tijd om aan de slag te gaan tijdens de deep dive, en er w
 ### ma 7 september - Sprint planning + WS 1
 
 Vandaag ben ik aan de slag gegaan met het maken van een presentatie omtrent manga en hoe dat mij inspireert om uiteindelijk een mooi product neer te zetten, althans mijn mooie toekomstige digital garden.  
-checkout:
+checkout: 
 
 ### woe 9 september - Presentatie geven + visual research
 Presentatie, sfeerwoorden, sfeerstijlen en crazy 8's 
@@ -69,7 +71,9 @@ Presentatie, sfeerwoorden, sfeerstijlen en crazy 8's
 <img width="977" height="942" alt="stap 3" src="https://github.com/user-attachments/assets/58777080-ad57-415f-99ed-6eb39ce92047" />
 <img width="762" height="537" alt="crazy 8" src="https://github.com/user-attachments/assets/2b612753-ae24-479c-bb43-88755353122a" />
 
-### vrij 11 september - 
+### vrij 11 september - Voortgang gesprek met Nicky
+Feedback en ideeën uitgewisseld. Ik wil mijn site over manga gaan houden en er een soort blog/manga review site van maken voor alles wat ik ga lezen. Nicky kwam met een goed idee: ik zou bijvoorbeeld schreef lettertypes kunnen gebruiken, zoals het bekende font van Weekly Shonen Jump, om in mijn huisstijl te verwerken.
+
 
 ### ma 14 september - Biweekly geek + responsive design uitleg
 Vandaag waren we aan de slag met Vasilis
