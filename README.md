@@ -83,7 +83,7 @@ Je hebt je onderdelen al ingedeeld in een one-column layout.  Nu ga je onderzoek
 
 1. Ik ben met Giel in een duo om elkaars site te bekijken.
 2. Giel's site waarvan ik moest kijken of die responsive is was goed responsief op de telefoon al zat er een kleine afwijking waardoor die niet recht in het midden zat
-3. Ik denk dat er verandering nodig zijn van layout en vormgeving op het moment als alles b.v niet gecenreerd is en of niet goed te lezen/ te zien is
+3. Ik denk dat er verandsering nodig zijn van layout en vormgeving op het moment als alles b.v niet gecenreerd is en of niet goed te lezen/ te zien is
 4. Notities: 
 
 check-out (what did i learn):
@@ -112,7 +112,14 @@ Ik neem contrast in kleur en grootte, samen met de grids, mee in mijn nieuwe ite
 
 ### vrij 18 september - Afsluiting sprint 1
 
-### ma 21 september - 
+### ma 21 september - Sprint 2 Compliance start!
+Waar is HTML (HyperText Markup Language) handig voor?
+-UX
+-Ordenen van code
+-Machines
+-Btekenis
+
+
 
 ### woe 23 september - 
 
