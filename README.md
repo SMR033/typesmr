@@ -116,12 +116,14 @@ Ik neem contrast in kleur en grootte, samen met de grids, mee in mijn nieuwe ite
 ### vrij 18 september - Afsluiting sprint 1
 
 ### ma 21 september - Sprint 2 Compliance start!
-Waar is HTML (HyperText Markup Language) handig voor?
+Waar is HTML (HyperT
+ext Markup Language) handig voor?
 -UX
 -Ordenen van code
 -Machines
 -Btekenis
 
+<img width="1600" height="1170" alt="cookies opdracht" src="https://github.com/user-attachments/assets/c2bd4a3f-0128-479c-a238-54ca2f0afaea" />
 
 
 ### woe 23 september - 
