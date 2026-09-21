@@ -74,6 +74,9 @@ Presentatie, sfeerwoorden, sfeerstijlen en crazy 8's
 ### vrij 11 september - Voortgang gesprek met Nicky
 Feedback en ideeën uitgewisseld. Ik wil mijn site over manga gaan houden en er een soort blog/manga review site van maken voor alles wat ik ga lezen. Nicky kwam met een goed idee: ik zou bijvoorbeeld schreef lettertypes kunnen gebruiken, zoals het bekende font van Weekly Shonen Jump, om in mijn huisstijl te verwerken.
 
+<img width="1200" height="1600" alt="shonen jump manga" src="https://github.com/user-attachments/assets/4e7b90da-7b7f-4ee5-9658-3adbf71bdc59" />
+voorbeeld shonen jump magazine 
+
 
 ### ma 14 september - Biweekly geek + responsive design uitleg
 Vandaag waren we aan de slag met Vasilis
