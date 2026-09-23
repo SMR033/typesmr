@@ -8,7 +8,7 @@ Vandaag begon de dag met een hoorcollege en wat gastsprekers, waarin we werden g
 Uiteindelijk zijn we daarna met alle tweedejaarsstudenten van ons cluster bij elkaar gaan zitten in 3 open klaslokalen, liepen we de eerste opdrachten door en kregen we al wat theoriestof.
 
 Ik heb nu ook een eigen domeinnaam, namelijk "Typesmr.nl", en die is nu ook gekoppeld aan mijn GitHub. 
-Mijn GitHub is zelf ook gekoppeld via VSCode/VSCodium, zodat ik alles daarop kan aanpassen en alles lekker mee synchroniseer :)
+Mijn GitHub is zelf ook gekoppeld via VSCode/VSCodium, zodat ik alles daarop kan aanpassen en alles lekker mee synchroniseer :) 
 
 Logout:
 
@@ -124,7 +124,28 @@ Waar is HTML (HyperText Markup Language) handig voor?
 
 
 
-### woe 23 september - 
+### woe 23 september - Privay hoorcollege
+
+hoor college
+
+Human Consent Component
+Opdracht:
+
+-Bespreek in jouw groepje welke gegevens op jouw digital garden van gebruikers verwerkt worden. Houdt daarbij in de gaten welke diensten je allemaal gebruikt. Zelfs als je alles zelf geschreven hebt zijn dat er al twee: GitHub pages hosting én het digitaaltuintje component.
+
+Vscode,github en het digitaaltuintje component
+
+
+-Informeren van gebruikers is een plicht die je hebt als websitemaker: Hoe kan je gebruikers informeren over het gebruik van hun gegevens op jouw website?
+
+Ik denk dat een leuke pop up in je eigen stijl super leuk werkt die het laten weten dat er cookies zijn of informatie word gedeeld op een leuke manier.
+
+
+-Op welke manier kan je instemming vragen? Doe desk-research en zoek tenminste 10 verschillende manieren van het vragen van consent op het web.
+
+
+
+-Denk na over een manier van werken die past binnen de layout van jouw digital garden? 
 
 ### vrij 25 september - 
 
