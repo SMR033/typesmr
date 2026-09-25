@@ -6,6 +6,66 @@
     <meta name="color-scheme" content="dark light" />
     <title>SMR UNIVERSE</title>
     <link rel="stylesheet" href="./assets/style/normal.css" />
+    <style>
+      main {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 240px;
+        gap: 2rem;
+        align-items: start;
+      }
+
+      main > section:first-child {
+        grid-column: 2;
+        grid-row: 1;
+        width: 100%;
+        min-height: 220px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+      }
+
+      main > section:first-child img {
+        display: block;
+        width: 220px;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+
+      #intro-tekst {
+        grid-column: 1;
+        grid-row: 1;
+        width: auto;
+        max-width: none;
+        min-width: 0;
+        margin: 0;
+      }
+
+      #versions {
+        grid-column: 1 / -1;
+      }
+
+      @media (max-width: 700px) {
+        main {
+          grid-template-columns: 1fr;
+        }
+
+        main > section:first-child,
+        #intro-tekst,
+        #versions {
+          grid-column: 1;
+        }
+
+        main > section:first-child {
+          grid-row: 1;
+        }
+
+        #intro-tekst {
+          grid-row: 2;
+        }
+      }
+    </style>
   </head>
 
   <body>
