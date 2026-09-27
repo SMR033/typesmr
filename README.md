@@ -115,6 +115,11 @@ Ik neem contrast in kleur en grootte, samen met de grids, mee in mijn nieuwe ite
 
 ### vrij 18 september - Afsluiting sprint 1
 
+We sloten sprint 1 af met een retrospective 
+
+
+
+
 ### ma 21 september - Sprint 2 Compliance start!
 Waar is HTML (HyperT
 ext Markup Language) handig voor?
@@ -143,7 +148,21 @@ Vscode,github en het digitaaltuintje component
 Ik denk dat een leuke pop up in je eigen stijl super leuk werkt die het laten weten dat er cookies zijn of informatie word gedeeld op een leuke manier.
 
 
--Op welke manier kan je instemming vragen? Doe desk-research en zoek tenminste 10 verschillende manieren van het vragen van consent op het web.
+-Op welke manier kan je instemming vragen? Doe desk-research en zoek tenminste 10 verschillende manieren van het vragen van consent op het web
+
+de volgende 10 heb ik gevonden en dat zijn
+1 Een cookie banner / pop up
+2 Dubbele opt - in 
+3 toesdtemmings opo ups
+4 een vinkje of kruisje aangeven voor de algemene voorwaarden of privacy verklaring
+5 optie om je toestemming in te trekken via een dashboard
+6 Vragen om toestemming voor push notificaties
+7 Accountverwijdering
+8 Leeftijdsverificatie
+8 Toestemming voor gepersonaliseerde prijzen en algoritmes
+9 Herbevestiging van toestemming
+10 Toestemming per content blok (Just-in-Time Consent)
+
 
 
 
