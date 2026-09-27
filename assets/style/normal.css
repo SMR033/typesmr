@@ -17,9 +17,9 @@ body {
   grid-template-columns: 1fr 90px;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
-    "hero    side"
-    "main    side"
-    "footer  side";
+    "kop     zijbalk"
+    "inhoud  zijbalk"
+    "voet    zijbalk";
   min-height: 100vh;
   margin: 0;
   font-family: "ITCKabelStdMedium", system-ui;
@@ -28,9 +28,9 @@ body {
     #f5f2ea;
 }
 
-/* SIDEBAR: nav-ovaaltjes + verticale titel */
+/* ZIJBALK: nav-ovaaltjes + verticale titel */
 aside {
-  grid-area: side;
+  grid-area: zijbalk;
   display: grid;
   grid-template-rows: 1fr auto;
   justify-items: center;
@@ -79,9 +79,9 @@ aside h1 {
   letter-spacing: .1em;
 }
 
-/* HERO */
+/* KOP */
 header {
-  grid-area: hero;
+  grid-area: kop;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -119,35 +119,39 @@ header h2 { margin: 0; color: #211c18; }
   box-shadow: 1px 1px 0 #211c18;
 }
 
-/* MAIN */
+/* INHOUD */
 main {
-  grid-area: main;
+  grid-area: inhoud;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: minmax(0, 1fr) 240px;
   grid-template-rows: 1fr auto;
-  gap: 20px;
+  grid-template-areas:
+    "tekst    plaatje"
+    "overzicht overzicht";
+  gap: 20px 2rem;
   margin: 24px;
+  align-items: start;
 }
 
-#vraagteken {
-  grid-row: 1 / 2;
-  display: grid;
-  place-items: center;
-  font-size: 4rem;
-  font-weight: bold;
-  color: #d81e2c;
-  padding: 20px;
-  border: 4px solid #211c18;
-  border-radius: 10px;
-  background: repeating-linear-gradient(45deg, #f5f2ea 0, #f5f2ea 5px, #e4e0d4 5px, #e4e0d4 7px);
-  box-shadow: 5px 5px 0 #211c18;
-  transition: transform .2s ease;
+.sectie-plaatje {
+  grid-area: plaatje;
+  width: 100%;
+  min-height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-#vraagteken:hover { transform: rotate(-8deg) scale(1.05); }
+.sectie-plaatje img {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 
 #intro-tekst {
-  grid-row: 1 / 2;
+  grid-area: tekst;
   padding: 20px;
   border: 4px solid #211c18;
   border-radius: 10px;
@@ -159,7 +163,7 @@ main {
 #intro-tekst a { color: #d81e2c; }
 
 #versions {
-  grid-column: 1 / -1;
+  grid-area: overzicht;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
@@ -183,8 +187,9 @@ article:hover {
 
 h3 { margin-top: 0; color: #d81e2c; }
 
+/* VOET */
 footer {
-  grid-area: footer;
+  grid-area: voet;
   margin: 0 24px 24px;
   color: #d81e2c;
   text-align: center;
@@ -194,3 +199,14 @@ footer {
 img, svg, video { display: block; max-width: 100%; height: auto; }
 button, summary { cursor: pointer; }
 button, input, select, textarea { font: inherit; }
+
+@media (max-width: 700px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "plaatje"
+      "tekst"
+      "overzicht";
+  }
+}
