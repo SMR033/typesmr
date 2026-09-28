@@ -4,6 +4,13 @@
   font-weight: 800;
 }
 
+@font-face {
+  font-family: "OsakaRe";
+  src: url("../type/osaka-re.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   color-scheme: dark;
   color: #211c18;
@@ -12,13 +19,16 @@
 
 * { box-sizing: border-box; }
 
+/* mark: ;layout */
+
+
 body {
   display: grid;
   grid-template-columns: 1fr 90px;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
     "kop     zijbalk"
-    "inhoud  zijbalk"
+    "inhoud  zijbalk"                                                       
     "voet    zijbalk";
   min-height: 100vh;
   margin: 0;
@@ -94,7 +104,16 @@ header {
   box-shadow: 6px 6px 0 #211c18;
 }
 
-header h2 { margin: 0; color: #211c18; }
+header h2 { margin: 0; color: #211c18; 
+font-size: clamp(3rem, 0vw, 0rem);
+}
+
+
+h1, h2 {
+  font-family: "OsakaRe", serif;
+}
+
+
 
 #cta {
   padding: 12px 24px;

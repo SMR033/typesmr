@@ -172,4 +172,23 @@ de volgende 10 heb ik gevonden en dat zijn
 
 ### ma 28 september - 
 
+checkout: 
+ux is heel belangrijk, 
+
+de 4 bepekringen:
+visueel
+cognitief
+auditief
+motorisch
+
+3 manieren om te navigeren met een screenreader
+
+drop down menu
+
+met tab kan alles zelf selecteren
+
+spatie balk kan je elementen selecteren
+
+met de pijl toetsen kan je naar de volgende / vorige elementen inspecteren
+
 ### woe 30 september -
