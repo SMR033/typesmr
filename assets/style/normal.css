@@ -11,6 +11,15 @@
   font-style: normal;
 }
 
+html  {
+@media (prefers-reduced-motion:no preference)
+scroll-behaviour: smooth;
+scroll-padding-top: 6em;
+}
+
+
+
+
 :root {
   color-scheme: dark;
   color: #211c18;
@@ -257,65 +266,65 @@ button, input, select, textarea { font: inherit; }
 
 @media (max-width: 700px) {
   body {
-    display: block;
     min-width: 0;
+    grid-template-columns: minmax(0, 1fr) clamp(56px, 13vw, 90px);
   }
 
   aside {
-    display: block;
-    padding: 12px 16px;
-    border-left: 0;
-    border-bottom: 3px solid #211c18;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding: 16px 4px;
+    border-left: 2px solid #211c18;
+    border-bottom: 0;
   }
 
   aside nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
+    display: grid;
+    gap: clamp(6px, 2vw, 12px);
   }
 
   aside nav a {
-    width: auto;
-    min-width: 56px;
-    height: 30px;
+    width: clamp(44px, 11vw, 64px);
+    height: clamp(24px, 6vw, 30px);
+    padding: 0 4px;
+    font-size: clamp(.55rem, 2.2vw, .7rem);
   }
 
   aside h1 {
-    margin-top: 12px;
-    writing-mode: horizontal-tb;
-    transform: none;
+    margin: 0;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
     text-align: center;
-    font-size: 1.25rem;
+    font-size: clamp(.9rem, 3.5vw, 1.25rem);
   }
 
   header {
-    grid-template-columns: 1fr;
-    gap: 12px;
-    margin: 16px 12px 0;
-    padding: 16px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+    margin: 12px 8px 0;
+    padding: clamp(10px, 3vw, 16px);
   }
 
   header h2 {
-    font-size: clamp(2rem, 10vw, 3rem);
+    font-size: clamp(1.25rem, 6vw, 2.5rem);
     overflow-wrap: anywhere;
   }
 
   #cta {
     display: block;
-    padding: 10px 16px;
+    padding: 8px clamp(8px, 3vw, 16px);
     text-align: center;
+    font-size: clamp(.7rem, 2.8vw, 1rem);
   }
 
   main {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: minmax(0, 1fr) minmax(80px, 30%);
+    grid-template-rows: auto auto;
     grid-template-areas:
-      "plaatje"
-      "tekst"
+      "tekst plaatje"
       "overzicht";
-    gap: 16px;
-    margin: 16px 12px;
+    gap: 12px;
+    margin: 12px 8px;
   }
 
   .sectie-plaatje {
@@ -323,7 +332,7 @@ button, input, select, textarea { font: inherit; }
   }
 
   .sectie-plaatje img {
-    width: min(220px, 70vw);
+    width: min(220px, 100%);
   }
 
   #intro-tekst,
@@ -332,18 +341,18 @@ button, input, select, textarea { font: inherit; }
   }
 
   #versions {
-    grid-template-columns: 1fr;
-    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr));
+    gap: 12px;
   }
 
   footer {
-    margin: 0 12px 16px;
+    margin: 0 8px 12px;
   }
 
   #cookie-popup {
     right: 0.75rem;
     bottom: 0.75rem;
-    width: calc(100% - 1.5rem);
+    width: min(22rem, calc(100vw - clamp(56px, 13vw, 90px) - 1.5rem));
   }
 
   #cookie-popup .cookie-actions {
