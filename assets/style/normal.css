@@ -153,9 +153,10 @@ h1, h2 {
         padding: 1rem;
         color: #fff;
         background: #211c18;
-        border:3px solid #d81e2c;
-        border-radius: 0.75rem;
-        box-shadow: 0 4px 20px #0009;
+        border: 3px solid #d81e2c;
+        border-radius: 8px;
+        background: #211c18;
+        box-shadow: 6px 6px 0 #84121c;
       }
       #cookie-popup h2 { margin-top: 0; }
       #cookie-popup button {

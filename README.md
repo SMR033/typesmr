@@ -192,3 +192,12 @@ spatie balk kan je elementen selecteren
 met de pijl toetsen kan je naar de volgende / vorige elementen inspecteren
 
 ### woe 30 september -
+
+Checkout:
+
+WCAG staat Web Content Accessibility Guidelines
+
+
+laptop/websites bedienen met alleen een toetsenboord is best moeilijk al hoewel je wel zicht heb en het meer duidelijker is maar toch vind ik een screenreader simpel om te navigeren.
+
+Ik vindt het meest lastige dus om met het cognetieve gedeelte van websites rekening houden dus best lastig maar daar denken de meeste wel hetzelfde over.
