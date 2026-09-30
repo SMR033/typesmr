@@ -6,7 +6,6 @@
     <meta name="color-scheme" content="dark light" />
     <title>SMR UNIVERSE</title>
     <link rel="stylesheet" href="./assets/style/normal.css" />
-  
   </head>
 
   <body>
@@ -19,7 +18,7 @@
           <li><a href="#">Manga</a></li>
         </ul>
       </nav>
-      <h1> Site is in progress</h1>
+      <h1>SMR READS SMR READS SMR READS</h1>
     </aside>
 
     <header>
@@ -33,50 +32,53 @@
       </section>
 
       <section id="intro-tekst">
-        <p>Yo, This is SMR READS!</p>
-        <p># Yo, this is SMR READS!
-
-Welcome to SMR READS, a place where I share the manga I enjoy, the stories that stick with me, and the series I think are worth talking about.
-I'm Samir, and I made this site to share my love for manga through reviews, recommendations, and deep dives into the things that make each series unique.
-One thing I especially love about manga is the artwork and the covers. Even after finishing a series online, I'll sometimes pick up a physical volume simply because I love its cover. From the artwork and composition to the small details and hidden Easter eggs, there's often more to a cover than you might expect.
-Here, I'll be taking a closer look at those details while also sharing my thoughts on the stories, characters, art, and everything else that makes a manga stand out.
-SMR READS is still a work in progress, so expect new reviews, new manga, and a few hidden surprises along the way.
-Take a look around, find something interesting, and maybe discover your next read.
-Thanks for stopping by.
-Peace.
-</p>
+        <p>Yo This is SMR READS!</p>
+        <p>Yo, my name is Samir. Um, I made this website so I can show you guys my favorite manga that I've recently been reading and the ones that
+          I think are worth reading. Uh, I also review manga in depth and I'm a very big fan of covers. So sometimes when I read a manga online fully uh,
+          finished, I buy a volume of the manga, but I only buy the ones which have nice covers. And I like to go in depth in the cover.
+          Sometimes you see Easter eggs. Sometimes you just see how beautifully it's made. Uh, it differs from anime.
+          I mean, from manga to manga. Um, anime is basically manga, but animated, right? Um, so, yeah. This is all.
+          My website is still in progress. Everything is due to subject changing, whatever it's called. Um, Be welcome to just look around.
+          I'll be posting a lot of Easter egg buttons. So, yeah. Thank you for coming. Peace.</p>
       </section>
 
       <section id="versions">
-<article> 
-    <nav>
-        <ul>
-          <li><a href="/contact.html">Press here for a cookie</a></li>
-bla bla bla 
-        </ul>
-      </nav>
-</article>
-
-
-
         <article>
-          <h3>Manga's I read</h3>
-          <p>Manga aanbevelingen die je echt moet lezen!!!</p>
+          <nav>
+            <ul>
+              <li><a href="/contact.html">Press here for a cookie</a></li>
+              bla bla bla
+            </ul>
+          </nav>
         </article>
-        <article>
-          <h3>Manga's I want to read</h3>
-          <p>Mijn manga collectie...</p>
-        </article>
-        <article>
-          <h3>My favourite manga</h3>
-          <p>My favourite manga</p>
-        </article>
+
+        <a class="kaart" href="manga-read.html">
+          <article>
+            <h3>Manga's I read</h3>
+            <p>Manga aanbevelingen die je echt moet lezen!!!</p>
+          </article>
+        </a>
+
+        <a class="kaart" href="manga-want.html">
+          <article>
+            <h3>Manga's I want to read</h3>
+            <p>Mijn manga collectie...</p>
+          </article>
+        </a>
+
+        <a class="kaart" href="manga-favourite.html">
+          <article>
+            <h3>My favourite manga</h3>
+            <p>My favourite manga</p>
+          </article>
+        </a>
       </section>
     </main>
 
     <footer>
       <p>&copy; 2026 SMR Universe. All rights reserved... I think...</p>
     </footer>
+
     <section id="cookie-popup" role="dialog" aria-labelledby="cookie-title">
       <h2 id="cookie-title">Freshly baked cookies!</h2>
       <p>This site uses freshly baked cookies to enhance your browsing experience</p>
@@ -86,11 +88,17 @@ bla bla bla
         <button type="button" id="cookie-reject">weigeren</button>
       </div>
     </section>
+
     <script>
       ["cookie-accept", "cookie-reject"].forEach((id) => {
         document.getElementById(id).addEventListener("click", () => {
           document.getElementById("cookie-popup").remove();
         });
+      });
+
+      document.getElementById("cta").addEventListener("click", (e) => {
+        e.preventDefault();
+        document.getElementById("versions").scrollIntoView({ behavior: "smooth" });
       });
     </script>
   </body>

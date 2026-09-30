@@ -250,6 +250,26 @@ article:hover {
 
 h3 { margin-top: 0; color: #d81e2c; }
 
+/* KLIKBARE KAARTEN */
+.kaart {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.kaart article { height: 100%; }
+
+.kaart:active article {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 #211c18;
+}
+
+.kaart:focus-visible {
+  outline: 3px solid #d81e2c;
+  outline-offset: 4px;
+}
+
 /* VOET */
 footer {
   grid-area: voet;
