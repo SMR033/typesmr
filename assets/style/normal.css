@@ -256,6 +256,57 @@ button, summary { cursor: pointer; }
 button, input, select, textarea { font: inherit; }
 
 @media (max-width: 700px) {
+  body {
+    display: block;
+    min-width: 0;
+  }
+
+  aside {
+    display: block;
+    padding: 12px 16px;
+    border-left: 0;
+    border-bottom: 3px solid #211c18;
+  }
+
+  aside nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  aside nav a {
+    width: auto;
+    min-width: 56px;
+    height: 30px;
+  }
+
+  aside h1 {
+    margin-top: 12px;
+    writing-mode: horizontal-tb;
+    transform: none;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  header {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 16px 12px 0;
+    padding: 16px;
+  }
+
+  header h2 {
+    font-size: clamp(2rem, 10vw, 3rem);
+    overflow-wrap: anywhere;
+  }
+
+  #cta {
+    display: block;
+    padding: 10px 16px;
+    text-align: center;
+  }
+
   main {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
@@ -263,5 +314,43 @@ button, input, select, textarea { font: inherit; }
       "plaatje"
       "tekst"
       "overzicht";
+    gap: 16px;
+    margin: 16px 12px;
+  }
+
+  .sectie-plaatje {
+    min-height: 0;
+  }
+
+  .sectie-plaatje img {
+    width: min(220px, 70vw);
+  }
+
+  #intro-tekst,
+  article {
+    padding: 16px;
+  }
+
+  #versions {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  footer {
+    margin: 0 12px 16px;
+  }
+
+  #cookie-popup {
+    right: 0.75rem;
+    bottom: 0.75rem;
+    width: calc(100% - 1.5rem);
+  }
+
+  #cookie-popup .cookie-actions {
+    flex-wrap: wrap;
+  }
+
+  #cookie-popup button {
+    flex: 1 1 8rem;
   }
 }
