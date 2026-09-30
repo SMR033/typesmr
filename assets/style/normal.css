@@ -11,12 +11,8 @@
   font-style: normal;
 }
 
-
-
-
-
-
 :root {
+  --side: 135px;
   color-scheme: dark;
   color: #211c18;
   background: #d8c9a8;
@@ -26,14 +22,13 @@
 
 /* mark: ;layout */
 
-
 body {
   display: grid;
-  grid-template-columns: 1fr 90px;
+  grid-template-columns: 1fr var(--side);
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
     "kop     zijbalk"
-    "inhoud  zijbalk"                                                       
+    "inhoud  zijbalk"
     "voet    zijbalk";
   min-height: 100vh;
   margin: 0;
@@ -66,7 +61,7 @@ aside nav ul {
 aside nav a {
   display: grid;
   place-items: center;
-  width: 64px;
+  width: 96px;
   height: 26px;
   padding: 0 8px;
   color: #211c18;
@@ -109,16 +104,15 @@ header {
   box-shadow: 6px 6px 0 #211c18;
 }
 
-header h2 { margin: 0; color: #211c18; 
-font-size: clamp(3rem, 0vw, 0rem);
+header h2 {
+  margin: 0;
+  color: #211c18;
+  font-size: clamp(3rem, 0vw, 0rem);
 }
-
 
 h1, h2 {
   font-family: "OsakaRe", serif;
 }
-
-
 
 #cta {
   padding: 12px 24px;
@@ -143,42 +137,46 @@ h1, h2 {
   box-shadow: 1px 1px 0 #211c18;
 }
 
-    #cookie-popup {
-        position: fixed;
-        right: 1rem;
-        bottom: 1rem;
-        z-index: 9999;
-        width: min(22rem, calc(100% - 2rem));
-        box-sizing: border-box;
-        padding: 1rem;
-        color: #fff;
-        background: #211c18;
-        border: 3px solid #d81e2c;
-        border-radius: 8px;
-        background: #211c18;
-        box-shadow: 6px 6px 0 #84121c;
-      }
-      #cookie-popup h2 { margin-top: 0; }
-      #cookie-popup button {
-        padding: 0.6rem 1rem;
-        color: #fff;
-        background: #97d81e;
-        border: 0;
-        border-radius: 0.35rem;
-        cursor: pointer;
-      }
-      #cookie-popup .cookie-actions {
-        display: flex;
-        gap: 0.5rem;
-      }
-      #cookie-popup #cookie-reject {
-        background: #d81e2c;
-      }
-      #cookie-popup .cookie-info {
-        margin-bottom: 0.75rem;
-        font-size: 0.85rem;
-        line-height: 1.4;
-      }
+#cookie-popup {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 9999;
+  width: min(22rem, calc(100% - 2rem));
+  box-sizing: border-box;
+  padding: 1rem;
+  color: #fff;
+  background: #211c18;
+  border: 3px solid #d81e2c;
+  border-radius: 8px;
+  box-shadow: 6px 6px 0 #84121c;
+}
+
+#cookie-popup h2 { margin-top: 0; }
+
+#cookie-popup button {
+  padding: 0.6rem 1rem;
+  color: #fff;
+  background: #97d81e;
+  border: 0;
+  border-radius: 0.35rem;
+  cursor: pointer;
+}
+
+#cookie-popup .cookie-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#cookie-popup #cookie-reject {
+  background: #d81e2c;
+}
+
+#cookie-popup .cookie-info {
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
 
 /* INHOUD */
 main {
@@ -262,9 +260,11 @@ button, summary { cursor: pointer; }
 button, input, select, textarea { font: inherit; }
 
 @media (max-width: 700px) {
+  :root { --side: clamp(84px, 19.5vw, 135px); }
+
   body {
     min-width: 0;
-    grid-template-columns: minmax(0, 1fr) clamp(56px, 13vw, 90px);
+    grid-template-columns: minmax(0, 1fr) var(--side);
   }
 
   aside {
@@ -281,7 +281,7 @@ button, input, select, textarea { font: inherit; }
   }
 
   aside nav a {
-    width: clamp(44px, 11vw, 64px);
+    width: clamp(66px, 16.5vw, 96px);
     height: clamp(24px, 6vw, 30px);
     padding: 0 4px;
     font-size: clamp(.55rem, 2.2vw, .7rem);
@@ -349,7 +349,7 @@ button, input, select, textarea { font: inherit; }
   #cookie-popup {
     right: 0.75rem;
     bottom: 0.75rem;
-    width: min(22rem, calc(100vw - clamp(56px, 13vw, 90px) - 1.5rem));
+    width: min(22rem, calc(100vw - var(--side) - 1.5rem));
   }
 
   #cookie-popup .cookie-actions {
