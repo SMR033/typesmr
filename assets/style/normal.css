@@ -383,4 +383,30 @@ button, input, select, textarea { font: inherit; }
   #cookie-popup button {
     flex: 1 1 8rem;
   }
+
+/* MANGA PAGINA'S */
+main.lijst { display: block; }
+
+.manga-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.manga-grid img,
+.plaatje-leeg {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 3px solid #211c18;
+  border-radius: 6px;
+}
+
+.plaatje-leeg {
+  display: grid;
+  place-items: center;
+  background: #e4e0d4;
+  font-size: .8rem;
+}
 }
