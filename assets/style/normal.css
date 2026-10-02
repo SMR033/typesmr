@@ -383,6 +383,7 @@ button, input, select, textarea { font: inherit; }
   #cookie-popup button {
     flex: 1 1 8rem;
   }
+}
 
 /* MANGA PAGINA'S */
 main.lijst { display: block; }
@@ -408,5 +409,4 @@ main.lijst { display: block; }
   place-items: center;
   background: #e4e0d4;
   font-size: .8rem;
-}
 }
