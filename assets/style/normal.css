@@ -410,3 +410,55 @@ main.lijst { display: block; }
   background: #e4e0d4;
   font-size: .8rem;
 }
+
+/* DARK MODE */
+html[data-theme="dark"] { color: #f5f2ea; }
+
+html[data-theme="dark"] body {
+  background:
+    radial-gradient(circle, #f5f2ea 1.5px, transparent 1.5px) 0 0/14px 14px,
+    #211c18;
+}
+
+html[data-theme="dark"] aside {
+  background: #f5f2ea;
+  border-left-color: #f5f2ea;
+}
+
+html[data-theme="dark"] aside h1 { color: #211c18; }
+
+html[data-theme="dark"] aside nav a {
+  background: #211c18;
+  border-color: #211c18;
+  color: #f5f2ea;
+}
+
+html[data-theme="dark"] aside nav a:hover {
+  background: #d81e2c;
+  border-color: #d81e2c;
+}
+
+html[data-theme="dark"] header,
+html[data-theme="dark"] article {
+  background: #2e2823;
+  border-color: #f5f2ea;
+  box-shadow: 6px 6px 0 #f5f2ea;
+}
+
+html[data-theme="dark"] header h2 { color: #f5f2ea; }
+
+html[data-theme="dark"] article:hover {
+  background: #3a332d;
+  box-shadow: 6px 6px 0 #d81e2c;
+}
+
+html[data-theme="dark"] #intro-tekst {
+  border-color: #f5f2ea;
+  box-shadow: 5px 5px 0 #f5f2ea;
+  background: repeating-linear-gradient(45deg, #2e2823 0, #2e2823 5px, #373029 5px, #373029 7px);
+}
+
+html[data-theme="dark"] .manga-grid img,
+html[data-theme="dark"] .plaatje-leeg { border-color: #f5f2ea; }
+
+html[data-theme="dark"] .plaatje-leeg { background: #373029; }
