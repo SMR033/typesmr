@@ -206,4 +206,7 @@ Ik vindt het meest lastige dus om met het cognetieve gedeelte van websites reken
 ### vrij 2 oktober -
 
 
-### ma 5 oktober -
+### ma 5 oktober - sprintplanning + WS 1
+Dag begonnen met presentaties en wat uitleg erover zoals: etc 
+artikel Rhythm & Tension uit Typographic Web Design gelezen wat dus ging over hoe typografie kan gebruiken om een dynamische layout te maken. doormiddel van lettertype,grootte,regellente en regelafstand goed te gebruyiken alleen is herhaling ervan saai dus moet je counterpoints gebruiken om het interessanter te maken zoals een focal point of sterke verticale lijnen te gebruiken
+
