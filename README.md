@@ -210,3 +210,8 @@ Ik vindt het meest lastige dus om met het cognetieve gedeelte van websites reken
 Dag begonnen met presentaties en wat uitleg erover zoals: etc 
 artikel Rhythm & Tension uit Typographic Web Design gelezen wat dus ging over hoe typografie kan gebruiken om een dynamische layout te maken. doormiddel van lettertype,grootte,regellente en regelafstand goed te gebruyiken alleen is herhaling ervan saai dus moet je counterpoints gebruiken om het interessanter te maken zoals een focal point of sterke verticale lijnen te gebruiken
 
+<img width="1637" height="912" alt="intergalactic v1" src="https://github.com/user-attachments/assets/a9a4b380-5494-4d16-8bf8-02d129f9580c" />
+
+Ik heb “Intergalactic” van de Beastie Boys gekozen omdat dit nummer mij qua genre het meest aansprak vanm alle andere songs.(“Let it happen” was mijn tweede keuze, maar die vond ik voor deze opdracht niet interessant genoeg.)  Ook hoor je in de rap duidelijk de nadruk op veel verschillende stukjes, wat het goed te vertalen maakt naar typografie.
+
+In mijn ontwerp gebruik ik alleen wit op zwart en het lettertype Seraphs. Kernwoorden zoals “planetary”, “smile” en “worth your while” maak ik groot, en verbindende woorden klein. Zo ontstaat contrast dat het ritme en de flow van de rap laat zien. Door herhaling van “Intergalactic, planetary” en veel witruimte komt de hook sterk naar voren.
