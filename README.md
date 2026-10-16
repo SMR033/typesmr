@@ -215,3 +215,8 @@ artikel Rhythm & Tension uit Typographic Web Design gelezen wat dus ging over ho
 Ik heb “Intergalactic” van de Beastie Boys gekozen omdat dit nummer mij qua genre het meest aansprak vanm alle andere songs.(“Let it happen” was mijn tweede keuze, maar die vond ik voor deze opdracht niet interessant genoeg.)  Ook hoor je in de rap duidelijk de nadruk op veel verschillende stukjes, wat het goed te vertalen maakt naar typografie.
 
 In mijn ontwerp gebruik ik alleen wit op zwart en het lettertype Seraphs. Kernwoorden zoals “planetary”, “smile” en “worth your while” maak ik groot, en verbindende woorden klein. Zo ontstaat contrast dat het ritme en de flow van de rap laat zien. Door herhaling van “Intergalactic, planetary” en veel witruimte komt de hook sterk naar voren.
+
+
+Checkout: 
+
+Kerning is de ruimte tussen twee specifieke letters, tracking is de ruimte tussen alle letters en leading is de afstand tussen regels. Flush-left en flush-right lijnen tekst links of rechts uit, centered zet het in het midden en justified maakt beide kanten strak. Bij een indent springt de eerste regel in, bij een outdent steekt die uit. Een modular scale is een vaste verhouding voor lettergroottes. Movable type zijn losse letters waarmee je tekst kon opbouwen. Het focuspunt is waar je oog eerst naartoe gaat. Met de vijf contrasten maak je hiërarchie, en spatial tension is spanning die ontstaat door de plaatsing en ruimte tussen elementen.
