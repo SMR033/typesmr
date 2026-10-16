@@ -220,3 +220,22 @@ In mijn ontwerp gebruik ik alleen wit op zwart en het lettertype Seraphs. Kernwo
 Checkout: 
 
 Kerning is de ruimte tussen twee specifieke letters, tracking is de ruimte tussen alle letters en leading is de afstand tussen regels. Flush-left en flush-right lijnen tekst links of rechts uit, centered zet het in het midden en justified maakt beide kanten strak. Bij een indent springt de eerste regel in, bij een outdent steekt die uit. Een modular scale is een vaste verhouding voor lettergroottes. Movable type zijn losse letters waarmee je tekst kon opbouwen. Het focuspunt is waar je oog eerst naartoe gaat. Met de vijf contrasten maak je hiërarchie, en spatial tension is spanning die ontstaat door de plaatsing en ruimte tussen elementen.
+
+
+
+### di 6 oktober - Voorbereiding voor woensdag + deep dive S3: Interessantere layouts
+
+deep dive:
+
+### wo 7 oktober - Hiërarchie en grid
+
+
+
+In mijn tweede versie heb ik de tekst losgelaten van de strakke kolom. Regels staan nu net anders springend op een grid, waardoor er ruimte en speling ontstaat. Grote woorden als “Another” en “Dimension” krijgen extra lucht, kleine woorden blijven compact. De verschuivingen geven beweging, terwijl de vaste kolombreedte samenhang en overzicht houdt zodat het meer speelser is en wat meer leven creëert. Wat ik dus super vet vindt.
+<img width="1682" height="917" alt="intergalactic v2" src="https://github.com/user-attachments/assets/dc157c7d-295e-44af-9e4c-2f35e6d9ff4c" />
+
+
+checkout:
+Voor de ontwerper geeft een grid vaste regels, waardoor je sneller en consistenter keuzes maakt. Voor de bezoeker zorgt het voor herkenbaarheid en rust, waardoor die sneller snapt waar hij moet kijken.
+door het te gebruiken van een grid, houd je een duidelijke hiërarchie aan (contrast in grootte), en beperk je keuzes (een font, vaste lijnhoogte en kolombreedte). Zo voorkom je dus chaos.
+Maar hoeveel gekkigheid moet er in je werk zitten? Net genoeg om op te vallen, maar met een duidelijke basis eronder. Eerst coherentie, dan pas speling. Als de gekkigheid de leesbaarheid of hiërarchie verstoort, is het te veel. Een vast grid maakt het experiment juist veilig.
