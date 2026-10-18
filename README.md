@@ -225,6 +225,10 @@ Kerning is de ruimte tussen twee specifieke letters, tracking is de ruimte tusse
 
 ### di 6 oktober - Voorbereiding voor woensdag + deep dive S3: Interessantere layouts
 
+we moesten het artikel Technical Web Typography: Guidelines and Techniques @ Smashing Magazine bestuderen en dat ging eigenlijk over vele regels die altijd werken los van je ontwerpstijl.
+
+
+
 deep dive:
 
 ### wo 7 oktober - Hiërarchie en grid
