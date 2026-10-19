@@ -206,4 +206,40 @@ Ik vindt het meest lastige dus om met het cognetieve gedeelte van websites reken
 ### vrij 2 oktober -
 
 
-### ma 5 oktober -
+### ma 5 oktober - sprintplanning + WS 1
+Dag begonnen met presentaties en wat uitleg erover zoals: etc 
+artikel Rhythm & Tension uit Typographic Web Design gelezen wat dus ging over hoe typografie kan gebruiken om een dynamische layout te maken. doormiddel van lettertype,grootte,regellente en regelafstand goed te gebruyiken alleen is herhaling ervan saai dus moet je counterpoints gebruiken om het interessanter te maken zoals een focal point of sterke verticale lijnen te gebruiken
+
+<img width="1637" height="912" alt="intergalactic v1" src="https://github.com/user-attachments/assets/a9a4b380-5494-4d16-8bf8-02d129f9580c" />
+
+Ik heb “Intergalactic” van de Beastie Boys gekozen omdat dit nummer mij qua genre het meest aansprak vanm alle andere songs.(“Let it happen” was mijn tweede keuze, maar die vond ik voor deze opdracht niet interessant genoeg.)  Ook hoor je in de rap duidelijk de nadruk op veel verschillende stukjes, wat het goed te vertalen maakt naar typografie.
+
+In mijn ontwerp gebruik ik alleen wit op zwart en het lettertype Seraphs. Kernwoorden zoals “planetary”, “smile” en “worth your while” maak ik groot, en verbindende woorden klein. Zo ontstaat contrast dat het ritme en de flow van de rap laat zien. Door herhaling van “Intergalactic, planetary” en veel witruimte komt de hook sterk naar voren.
+
+
+Checkout: 
+
+Kerning is de ruimte tussen twee specifieke letters, tracking is de ruimte tussen alle letters en leading is de afstand tussen regels. Flush-left en flush-right lijnen tekst links of rechts uit, centered zet het in het midden en justified maakt beide kanten strak. Bij een indent springt de eerste regel in, bij een outdent steekt die uit. Een modular scale is een vaste verhouding voor lettergroottes. Movable type zijn losse letters waarmee je tekst kon opbouwen. Het focuspunt is waar je oog eerst naartoe gaat. Met de vijf contrasten maak je hiërarchie, en spatial tension is spanning die ontstaat door de plaatsing en ruimte tussen elementen.
+
+
+
+### di 6 oktober - Voorbereiding voor woensdag + deep dive S3: Interessantere layouts
+
+we moesten het artikel Technical Web Typography: Guidelines and Techniques @ Smashing Magazine bestuderen en dat ging eigenlijk over vele regels die altijd werken los van je ontwerpstijl.
+
+
+
+deep dive:
+
+### wo 7 oktober - Hiërarchie en grid
+
+
+
+In mijn tweede versie heb ik de tekst losgelaten van de strakke kolom. Regels staan nu net anders springend op een grid, waardoor er ruimte en speling ontstaat. Grote woorden als “Another” en “Dimension” krijgen extra lucht, kleine woorden blijven compact. De verschuivingen geven beweging, terwijl de vaste kolombreedte samenhang en overzicht houdt zodat het meer speelser is en wat meer leven creëert. Wat ik dus super vet vindt.
+<img width="1682" height="917" alt="intergalactic v2" src="https://github.com/user-attachments/assets/dc157c7d-295e-44af-9e4c-2f35e6d9ff4c" />
+
+
+checkout:
+Voor de ontwerper geeft een grid vaste regels, waardoor je sneller en consistenter keuzes maakt. Voor de bezoeker zorgt het voor herkenbaarheid en rust, waardoor die sneller snapt waar hij moet kijken.
+door het te gebruiken van een grid, houd je een duidelijke hiërarchie aan (contrast in grootte), en beperk je keuzes (een font, vaste lijnhoogte en kolombreedte). Zo voorkom je dus chaos.
+Maar hoeveel gekkigheid moet er in je werk zitten? Net genoeg om op te vallen, maar met een duidelijke basis eronder. Eerst coherentie, dan pas speling. Als de gekkigheid de leesbaarheid of hiërarchie verstoort, is het te veel. Een vast grid maakt het experiment juist veilig.
