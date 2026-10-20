@@ -243,3 +243,9 @@ checkout:
 Voor de ontwerper geeft een grid vaste regels, waardoor je sneller en consistenter keuzes maakt. Voor de bezoeker zorgt het voor herkenbaarheid en rust, waardoor die sneller snapt waar hij moet kijken.
 door het te gebruiken van een grid, houd je een duidelijke hiërarchie aan (contrast in grootte), en beperk je keuzes (een font, vaste lijnhoogte en kolombreedte). Zo voorkom je dus chaos.
 Maar hoeveel gekkigheid moet er in je werk zitten? Net genoeg om op te vallen, maar met een duidelijke basis eronder. Eerst coherentie, dan pas speling. Als de gekkigheid de leesbaarheid of hiërarchie verstoort, is het te veel. Een vast grid maakt het experiment juist veilig.
+
+
+
+### ma 19 oktober - Webby test met een klasgenoot
+
+Feedback
