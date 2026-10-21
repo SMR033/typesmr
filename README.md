@@ -248,4 +248,19 @@ Maar hoeveel gekkigheid moet er in je werk zitten? Net genoeg om op te vallen, m
 
 ### ma 19 oktober - Webby test met een klasgenoot
 
-Feedback
+Feedback webby papiertje
+
+Samen 1 op 1 hebben we gekeken met mijn duo of beide onze websites webby zijn er daar kwam dit van uit
+
+### woe 21 oktober - Peerfeedback formulier
+
+In de les zijn we bezig geweest met een peerfeedback formulier met z'n vieren (Ikke, Dewi Annelot en Leonie)
+Het kwam er op neer dat ik best goed stond voor alles alleen valt er wel nog veel werk te doen omtrent het screenreader ervaring.
+
+
+
+mijn top 3 belangrijke verbeter punten
+ - HTML valideren
+ - Scroll driven animaties
+ - Mijn screen reader optimizen
+
