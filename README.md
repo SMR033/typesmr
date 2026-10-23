@@ -133,15 +133,37 @@ ext Markup Language) handig voor?
 
 ### woe 23 september - Privay hoorcollege
 
+<img width="1080" height="1920" alt="wireframe" src="https://github.com/user-attachments/assets/b94d6535-b300-4923-bc80-5c6a6e2c3e46" />
+
+
 hoor college
 
 Human Consent Component
 Opdracht:
 
--Bespreek in jouw groepje welke gegevens op jouw digital garden van gebruikers verwerkt worden. Houdt daarbij in de gaten welke diensten je allemaal gebruikt. Zelfs als je alles zelf geschreven hebt zijn dat er al twee: GitHub pages hosting én het digitaaltuintje component.
+Dit zijn de gegevens die op mijn site verwerkt worden:
 
-Vscode,github en het digitaaltuintje component
+GitHub Pages (hosting)
 
+Ziet het IP-adres en de browser van elke bezoeker.
+
+Digitaaltuintje-component
+
+Laadt vanaf een andere server.
+Ziet ook het IP-adres en de browser van de bezoeker.
+Wat het script verder doet moet je nog uitzoeken.
+
+Je eigen code
+
+Dark/light-keuze: blijft alleen in de browser van de bezoeker.
+Cookie-paneel: plaatst geen cookies.
+Fonts en plaatjes: staan lokaal, dus niets naar derden.
+
+Om te bespreken in je groepje
+
+Je verzamelt zelf niets.
+Twee diensten verwerken wel gegevens (vooral IP-adressen).
+Je cookie tekst over “analytics” klopt niet.
 
 -Informeren van gebruikers is een plicht die je hebt als websitemaker: Hoe kan je gebruikers informeren over het gebruik van hun gegevens op jouw website?
 
@@ -153,7 +175,7 @@ Ik denk dat een leuke pop up in je eigen stijl super leuk werkt die het laten we
 de volgende 10 heb ik gevonden en dat zijn
 1 Een cookie banner / pop up
 2 Dubbele opt - in 
-3 toesdtemmings opo ups
+3 toestemmings pop ups
 4 een vinkje of kruisje aangeven voor de algemene voorwaarden of privacy verklaring
 5 optie om je toestemming in te trekken via een dashboard
 6 Vragen om toestemming voor push notificaties
@@ -163,33 +185,34 @@ de volgende 10 heb ik gevonden en dat zijn
 9 Herbevestiging van toestemming
 10 Toestemming per content blok (Just-in-Time Consent)
 
+<img width="1477" height="772" alt="oefening 2" src="https://github.com/user-attachments/assets/ad06148b-7930-4f53-af83-eedc4077dad4" />
+<img width="1482" height="796" alt="oefening 1" src="https://github.com/user-attachments/assets/05977f0b-ae7d-45f4-9007-bc654cc1a59f" />
+<img width="1475" height="780" alt="oefening 3" src="https://github.com/user-attachments/assets/61828753-0fd7-428a-9f5f-214c6c61b311" />
 
 
-
--Denk na over een manier van werken die past binnen de layout van jouw digital garden? 
-
-### vrij 25 september - 
+### vrij 25 september - ziek gemeld
 
 ### ma 28 september - 
+Voorbereidingen die we moesten doen voor vandaag waren als volgt:
+https://www.youtube.com/watch?v=HRvbrsXKY74
+https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/ChatGPT%20faces%20tougher%20rules%20under%20EU%20online%20safety%20regime.pdf
+https://www.euronews.com/2026/07/27/ai-chatbots-citing-russian-propaganda-sourced-from-eu-sanctioned-outlet
 
 checkout: 
-ux is heel belangrijk, 
+ux is heel belangrijk!
 
-de 4 bepekringen:
+de 4 bepekringen die je kan hebben op je website:
 visueel
 cognitief
 auditief
 motorisch
 
-3 manieren om te navigeren met een screenreader
+3 manieren om te navigeren met een screenreader:
 
-drop down menu
-
-met tab kan alles zelf selecteren
-
-spatie balk kan je elementen selecteren
-
-met de pijl toetsen kan je naar de volgende / vorige elementen inspecteren
+-drop down menu
+-met tab kan alles zelf selecteren
+-spatie balk kan je elementen selecteren
+-met de pijl toetsen kan je naar de volgende / vorige elementen inspecteren
 
 ### woe 30 september -
 
