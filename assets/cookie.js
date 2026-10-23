@@ -9,21 +9,20 @@ document.body.insertAdjacentHTML("beforeend", `
     <p>This site uses freshly baked cookies to enhance your browsing experience.</p>
 
     <details>
-      <summary>What I use to build this site</summary>
+      <summary>Which external services and components are used?</summary>
       <ul>
-        <li>HTML and CSS</li>
-        <li>JavaScript</li>
-        <li>VS Code</li>
-        <li>GitHub</li>
+        <li>GitHub repository: Used to host the repository (folder structure and files) and the website.</li>
+        <li>DigitalGarden Webring Component: Connects this digital garden to the network of other digital gardens through a webring component.</li>
+        <li>Google Fonts: Used for typography and loads fonts from external servers.</li>
       </ul>
     </details>
 
     <details>
-      <summary>What cookies I use</summary>
+      <summary>How did I make this site?</summary>
       <ul>
-        <li>Theme: remembers dark or light</li>
-        <li>Functional: basic site stuff</li>
-        <li>Analytics: counts visitors</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Vscode/Vscodium</li>
+        <li>GitHub</li>
       </ul>
     </details>
 
