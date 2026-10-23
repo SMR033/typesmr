@@ -60,6 +60,10 @@ Nicky daarintegen gaaf ons les in het designen dus meer zo van hoe geef ik aan w
 
 ### ma 7 september - Sprint planning + WS 1
 
+deep dive light & dark mode
+<img width="1421" height="602" alt="light dark" src="https://github.com/user-attachments/assets/fd83006d-7fd5-4cfa-a9d1-f8dc86396c53" />
+
+
 Vandaag ben ik aan de slag gegaan met het maken van een presentatie omtrent manga en hoe dat mij inspireert om uiteindelijk een mooi product neer te zetten, althans mijn mooie toekomstige digital garden.  
 checkout: 
 
