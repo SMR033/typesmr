@@ -6,7 +6,7 @@ document.body.insertAdjacentHTML("beforeend", `
       <h2 id="cookie-title">Freshly baked cookies!</h2>
       <button type="button" id="cookie-close" aria-label="Close">✕</button>
     </div>
-    <p>This site uses freshly baked cookies to enhance your browsing experience.</p>
+    <p>To ensure this website functions properly and to be transparent about your privacy, we would like to explain how this site is built and what data is processed.</p>
 
     <details>
       <summary>Which external services and components are used?</summary>
