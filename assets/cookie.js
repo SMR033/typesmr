@@ -13,7 +13,6 @@ document.body.insertAdjacentHTML("beforeend", `
       <ul>
         <li>GitHub repository: Used to host the repository (folder structure and files) and the website.</li>
         <li>DigitalGarden Webring Component: Connects this digital garden to the network of other digital gardens through a webring component.</li>
-        <li>Google Fonts: Used for typography and loads fonts from external servers.</li>
       </ul>
     </details>
 
