@@ -20,7 +20,9 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 /* LAYOUT */
 body {
@@ -59,8 +61,7 @@ aside nav ul {
   list-style: none;
 }
 
-aside nav a,
-aside nav button {
+aside nav a {
   display: grid;
   place-items: center;
   width: 124px;
@@ -68,8 +69,6 @@ aside nav button {
   padding: 0 8px;
   color: #211c18;
   font-size: .9rem;
-  line-height: 1.1;
-  text-align: center;
   text-decoration: none;
   border: 2px solid #f5f2ea;
   border-radius: 999px;
@@ -77,15 +76,14 @@ aside nav button {
   transition: transform .2s ease, background .2s ease, color .2s ease;
 }
 
-aside nav a:hover,
-aside nav button:hover {
-  background: #c4121f;
-  border-color: #c4121f;
-  color: #fff;
+aside nav a:hover {
+  background: #d81e2c;
+  border-color: #d81e2c;
+  color: #f5f2ea;
   transform: scale(1.1) rotate(-3deg);
 }
 
-aside .zijtitel {
+aside h1 {
   margin: 0;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -101,39 +99,40 @@ header {
   grid-template-columns: 1fr auto;
   align-items: center;
   gap: 16px;
-  margin: 20px 20px 0;
-  padding: 14px 24px;
+  margin: 24px 24px 0;
+  padding: 20px 30px;
   border: 3px solid #211c18;
   border-radius: 12px;
   background: #f5f2ea;
-  box-shadow: 4px 4px 0 #211c18;
+  box-shadow: 6px 6px 0 #211c18;
 }
 
-header h1 {
+header h2 {
   margin: 0;
   color: #211c18;
-  font-size: 2.5rem;
-  text-transform: uppercase;
+  font-size: 3rem;
 }
 
-h1, h2, .zijtitel { font-family: "OsakaRe", serif; }
+h1, h2 {
+  font-family: "OsakaRe", serif;
+}
 
 #cta {
-  padding: 10px 20px;
-  color: #fff;
+  padding: 12px 24px;
+  color: #f5f2ea;
   text-decoration: none;
   font-weight: bold;
-  background: #c4121f;
+  background: #d81e2c;
   border: 2px solid #211c18;
   border-radius: 8px;
-  box-shadow: 3px 3px 0 #211c18;
+  box-shadow: 4px 4px 0 #211c18;
   transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
 }
 
 #cta:hover {
   background: #a5121d;
   transform: translate(-2px, -2px) rotate(-2deg);
-  box-shadow: 5px 5px 0 #211c18;
+  box-shadow: 6px 6px 0 #211c18;
 }
 
 #cta:active {
@@ -141,14 +140,34 @@ h1, h2, .zijtitel { font-family: "OsakaRe", serif; }
   box-shadow: 1px 1px 0 #211c18;
 }
 
-/* COOKIE POPUP */
+/* COOKIE KNOP + PANEEL (links onder) */
+#cookie-toggle {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 10000;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  font-size: 1.4rem;
+  background: #d81e2c;
+  border: 3px solid #211c18;
+  border-radius: 50%;
+  box-shadow: 4px 4px 0 #211c18;
+  cursor: pointer;
+  transition: transform .2s ease;
+}
+
+#cookie-toggle:hover {
+  transform: rotate(-8deg) scale(1.08);
+}
+
 #cookie-popup {
   position: fixed;
-  right: 1rem;
-  bottom: 1rem;
+  bottom: 5rem;
+  left: 1rem;
   z-index: 9999;
-  width: min(22rem, calc(100% - 2rem));
-  box-sizing: border-box;
+  width: min(22rem, calc(100vw - 2rem));
   padding: 1rem;
   color: #fff;
   background: #211c18;
@@ -157,51 +176,76 @@ h1, h2, .zijtitel { font-family: "OsakaRe", serif; }
   box-shadow: 6px 6px 0 #84121c;
 }
 
-#cookie-popup h2 { margin-top: 0; }
+#cookie-popup[hidden] { display: none; }
 
-#cookie-popup button {
-  padding: 0.6rem 1rem;
-  color: #211c18;
-  font-weight: bold;
-  background: #97d81e;
-  border: 0;
-  border-radius: 0.35rem;
+#cookie-popup .cookie-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cookie-popup h2 { margin: 0; }
+
+#cookie-close {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  color: #f5f2ea;
+  background: transparent;
+  border: 2px solid #f5f2ea;
+  border-radius: 6px;
   cursor: pointer;
 }
 
+#cookie-popup details {
+  margin: .5rem 0;
+  padding: .4rem .7rem;
+  border: 2px solid #f5f2ea;
+  border-radius: 6px;
+}
+
+#cookie-popup summary { cursor: pointer; }
+#cookie-popup ul { margin: .4rem 0 .2rem; padding-left: 1.1rem; }
+
 #cookie-popup .cookie-actions {
   display: flex;
-  gap: 0.5rem;
+  gap: .5rem;
+  margin-top: .7rem;
+}
+
+#cookie-popup .cookie-actions button {
+  flex: 1;
+  padding: .6rem 1rem;
+  color: #211c18;
+  background: #97d81e;
+  border: 0;
+  border-radius: .35rem;
+  cursor: pointer;
 }
 
 #cookie-popup #cookie-reject {
   color: #fff;
-  background: #c4121f;
-}
-
-#cookie-popup .cookie-info {
-  margin-bottom: 0.75rem;
-  font-size: 0.85rem;
-  line-height: 1.4;
+  background: #d81e2c;
 }
 
 /* INHOUD */
 main {
   grid-area: inhoud;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 200px;
-  grid-template-rows: auto auto;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  grid-template-rows: 1fr auto;
   grid-template-areas:
     "tekst    plaatje"
     "overzicht overzicht";
-  gap: 16px 1.5rem;
-  margin: 20px;
+  gap: 20px 2rem;
+  margin: 24px;
   align-items: start;
 }
 
 .sectie-plaatje {
   grid-area: plaatje;
   width: 100%;
+  min-height: 220px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -209,7 +253,7 @@ main {
 
 .sectie-plaatje img {
   display: block;
-  width: 180px;
+  width: 220px;
   max-width: 100%;
   height: auto;
   object-fit: contain;
@@ -217,52 +261,39 @@ main {
 
 #intro-tekst {
   grid-area: tekst;
-  padding: 16px 18px;
-  font-size: .95rem;
-  line-height: 1.5;
-  border: 3px solid #211c18;
+  padding: 20px;
+  border: 4px solid #211c18;
   border-radius: 10px;
   background: repeating-linear-gradient(45deg, #f5f2ea 0, #f5f2ea 5px, #e4e0d4 5px, #e4e0d4 7px);
-  box-shadow: 4px 4px 0 #211c18;
+  box-shadow: 5px 5px 0 #211c18;
 }
 
-#intro-tekst p { margin: 0 0 8px; }
-#intro-tekst p:last-child { margin-bottom: 0; }
+#intro-tekst p { margin: 6px 0; }
 
 #versions {
   grid-area: overzicht;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
 }
 
 article {
-  padding: 14px;
-  font-size: .95rem;
-  line-height: 1.45;
+  padding: 20px;
   border: 3px solid #211c18;
   border-radius: 8px;
   background: #f5f2ea;
-  box-shadow: 4px 4px 0 #211c18;
+  box-shadow: 6px 6px 0 #211c18;
   text-align: center;
   transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
 }
 
 article:hover {
-  transform: translateY(-4px) rotate(-1deg);
+  transform: translateY(-6px) rotate(-1deg);
   background: #fffdf7;
-  box-shadow: 4px 4px 0 #c4121f;
+  box-shadow: 6px 6px 0 #d81e2c;
 }
 
-article h2,
-.intro-kaart h2 {
-  margin: 0 0 6px;
-  color: #b5121f;
-  font-family: inherit;
-  font-size: 1.1rem;
-}
-
-article p { margin: 0; }
+h3 { margin-top: 0; color: #d81e2c; }
 
 /* KLIKBARE KAARTEN */
 .kaart {
@@ -276,30 +307,21 @@ article p { margin: 0; }
 
 .kaart:active article {
   transform: translate(3px, 3px);
-  box-shadow: 1px 1px 0 #211c18;
+  box-shadow: 2px 2px 0 #211c18;
 }
 
 .kaart:focus-visible {
-  outline: 3px solid #c4121f;
+  outline: 3px solid #d81e2c;
   outline-offset: 4px;
 }
 
 /* VOET */
 footer {
   grid-area: voet;
-  margin: 0 20px 20px;
+  margin: 0 24px 24px;
+  color: #d81e2c;
   text-align: center;
   font-weight: 700;
-}
-
-footer p {
-  display: inline-block;
-  margin: 0;
-  padding: 6px 14px;
-  color: #b5121f;
-  background: #f5f2ea;
-  border: 2px solid #211c18;
-  border-radius: 6px;
 }
 
 img, svg, video { display: block; max-width: 100%; height: auto; }
@@ -322,15 +344,14 @@ button, input, select, textarea { font: inherit; }
 
   aside nav ul { gap: 14px; }
 
-  aside nav a,
-  aside nav button {
+  aside nav a {
     width: clamp(84px, 21vw, 124px);
     height: 44px;
     padding: 0 4px;
     font-size: clamp(.65rem, 2.8vw, .9rem);
   }
 
-  aside .zijtitel {
+  aside h1 {
     text-align: center;
     font-size: clamp(.9rem, 3.5vw, 1.25rem);
   }
@@ -339,34 +360,36 @@ button, input, select, textarea { font: inherit; }
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 8px;
     margin: 12px 8px 0;
-    padding: clamp(10px, 3vw, 14px);
+    padding: clamp(10px, 3vw, 16px);
   }
 
-  header h1 {
-    font-size: clamp(1.25rem, 6vw, 2.2rem);
+  header h2 {
+    font-size: clamp(1.25rem, 6vw, 2.5rem);
     overflow-wrap: anywhere;
   }
 
   #cta {
     display: block;
-    padding: 8px clamp(8px, 3vw, 14px);
+    padding: 8px clamp(8px, 3vw, 16px);
     text-align: center;
     font-size: clamp(.7rem, 2.8vw, 1rem);
   }
 
   main {
     grid-template-columns: minmax(0, 1fr) minmax(80px, 30%);
+    grid-template-rows: auto auto;
     grid-template-areas:
       "tekst plaatje"
-      "overzicht overzicht";
+      "overzicht";
     gap: 12px;
     margin: 12px 8px;
   }
 
-  .sectie-plaatje img { width: min(180px, 100%); }
+  .sectie-plaatje { min-height: 0; }
+  .sectie-plaatje img { width: min(220px, 100%); }
 
   #intro-tekst,
-  article { padding: 12px; }
+  article { padding: 16px; }
 
   #versions {
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr));
@@ -374,16 +397,6 @@ button, input, select, textarea { font: inherit; }
   }
 
   footer { margin: 0 8px 12px; }
-
-  #cookie-popup {
-    right: 0.75rem;
-    bottom: 0.75rem;
-    width: min(22rem, calc(100vw - var(--side) - 1.5rem));
-  }
-
-  #cookie-popup .cookie-actions { flex-wrap: wrap; }
-
-  #cookie-popup button { flex: 1 1 8rem; }
 }
 
 /* MANGA PAGINA'S */
@@ -391,8 +404,8 @@ main.lijst { display: block; }
 
 .manga-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
 }
 
 .manga-grid img,
@@ -400,7 +413,7 @@ main.lijst { display: block; }
   width: 100%;
   aspect-ratio: 2 / 3;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   border: 3px solid #211c18;
   border-radius: 6px;
 }
@@ -413,13 +426,13 @@ main.lijst { display: block; }
 }
 
 /* KLAVER SPIN */
-.spin {
-  width: 90px;
-  margin: 0 auto 8px;
-  transition: transform .4s ease;
-}
+.spin { transition: transform .4s ease; }
 
 .spin:hover { animation: spin 2s linear infinite; }
+.spin:hover {
+  animation: spin 1s linear infinite;
+  transform-origin: center;
+}
 
 @keyframes spin {
   to { transform: rotate(360deg); }
@@ -432,23 +445,22 @@ main.lijst { display: block; }
 /* CONTACT */
 .intro-kaart {
   display: flex;
-  gap: 1.25rem;
+  gap: 1.5rem;
   align-items: center;
-  padding: 16px 18px;
-  margin-bottom: 16px;
-  font-size: .95rem;
-  line-height: 1.5;
-  border: 3px solid #211c18;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 4px solid #211c18;
   border-radius: 10px;
-  box-shadow: 4px 4px 0 #211c18;
+  box-shadow: 5px 5px 0 #211c18;
   background: repeating-linear-gradient(45deg, #f5f2ea 0, #f5f2ea 5px, #e4e0d4 5px, #e4e0d4 7px);
 }
 
+.intro-kaart h3 { margin: 0 0 6px; }
 .intro-kaart p { margin: 0; }
 
 .foto {
-  width: 130px;
-  height: 130px;
+  width: 160px;
+  height: 160px;
   flex-shrink: 0;
   object-fit: cover;
   border-radius: 50%;
@@ -458,11 +470,10 @@ main.lijst { display: block; }
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
+  gap: 20px;
 }
 
-.contact-grid a,
-#intro-tekst a { color: #b5121f; }
+.contact-grid a { color: #d81e2c; }
 
 @media (max-width: 600px) {
   .intro-kaart {
@@ -471,60 +482,13 @@ main.lijst { display: block; }
   }
 }
 
-/* TOEGANKELIJKHEID */
-aside nav a[aria-current="page"] {
-  background: #c4121f;
-  border-color: #c4121f;
-  color: #fff;
-}
-
-.skip-link {
-  position: absolute;
-  top: -100px;
-  left: 8px;
-  z-index: 10000;
-  padding: 10px 16px;
-  color: #fff;
-  font-weight: bold;
-  background: #211c18;
-  border: 3px solid #ffd84d;
-  border-radius: 8px;
-}
-
-.skip-link:focus { top: 8px; }
-
-main:focus { outline: none; }
-
-a:focus-visible,
-button:focus-visible {
-  outline: 3px solid #c4121f;
-  outline-offset: 3px;
-}
-
-aside nav a:focus-visible,
-aside nav button:focus-visible { outline-color: #ffd84d; }
-
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-
-  *, *::before, *::after {
-    transition: none !important;
-    animation: none !important;
-  }
-
-  aside nav a:hover,
-  aside nav button:hover,
-  #cta:hover,
-  article:hover { transform: none; }
-}
-
 /* DARK MODE */
-html[data-theme="dark"] { color: #fff6e8; }
+html[data-theme="dark"] { color: #f5f2ea; }
 
 html[data-theme="dark"] body {
   background:
-    radial-gradient(circle, #4a423b 1.5px, transparent 1.5px) 0 0/14px 14px,
-    #14110f;
+    radial-gradient(circle, #f5f2ea 1.5px, transparent 1.5px) 0 0/14px 14px,
+    #211c18;
 }
 
 html[data-theme="dark"] aside {
@@ -532,79 +496,47 @@ html[data-theme="dark"] aside {
   border-left-color: #f5f2ea;
 }
 
-html[data-theme="dark"] aside .zijtitel { color: #211c18; }
+html[data-theme="dark"] aside h1 { color: #211c18; }
 
-html[data-theme="dark"] aside nav a,
-html[data-theme="dark"] aside nav button {
+html[data-theme="dark"] aside nav a {
   background: #211c18;
   border-color: #211c18;
-  color: #fff6e8;
+  color: #f5f2ea;
 }
 
-html[data-theme="dark"] aside nav a:hover,
-html[data-theme="dark"] aside nav button:hover {
-  background: #ffd84d;
-  border-color: #ffd84d;
-  color: #14110f;
+html[data-theme="dark"] aside nav a:hover {
+  background: #d81e2c;
+  border-color: #d81e2c;
 }
 
 html[data-theme="dark"] header,
 html[data-theme="dark"] article {
-  background: #26211c;
-  border-color: #fff6e8;
-  box-shadow: 4px 4px 0 #fff6e8;
+  background: #2e2823;
+  border-color: #f5f2ea;
+  box-shadow: 6px 6px 0 #f5f2ea;
 }
 
-html[data-theme="dark"] header h1,
-html[data-theme="dark"] article h2,
-html[data-theme="dark"] .intro-kaart h2 { color: #ffd84d; }
+html[data-theme="dark"] header h2 { color: #f5f2ea; }
 
 html[data-theme="dark"] article:hover {
-  background: #332c26;
-  box-shadow: 4px 4px 0 #ffd84d;
+  background: #3a332d;
+  box-shadow: 6px 6px 0 #d81e2c;
 }
-
-html[data-theme="dark"] #cta {
-  color: #14110f;
-  background: #ffd84d;
-  border-color: #fff6e8;
-  box-shadow: 3px 3px 0 #fff6e8;
-}
-
-html[data-theme="dark"] #cta:hover { background: #ffe680; }
 
 html[data-theme="dark"] #intro-tekst,
 html[data-theme="dark"] .intro-kaart {
-  border-color: #fff6e8;
-  box-shadow: 4px 4px 0 #fff6e8;
-  background: repeating-linear-gradient(45deg, #26211c 0, #26211c 5px, #2d2721 5px, #2d2721 7px);
+  border-color: #f5f2ea;
+  box-shadow: 5px 5px 0 #f5f2ea;
+  background: repeating-linear-gradient(45deg, #2e2823 0, #2e2823 5px, #373029 5px, #373029 7px);
 }
-
-html[data-theme="dark"] .contact-grid a,
-html[data-theme="dark"] #intro-tekst a { color: #ffd84d; }
-
-html[data-theme="dark"] footer p {
-  color: #ffd84d;
-  background: #26211c;
-  border-color: #fff6e8;
-}
-
-html[data-theme="dark"] .kaart:focus-visible { outline-color: #ffd84d; }
 
 html[data-theme="dark"] .manga-grid img,
 html[data-theme="dark"] .plaatje-leeg,
-html[data-theme="dark"] .foto { border-color: #fff6e8; }
+html[data-theme="dark"] .foto { border-color: #f5f2ea; }
 
 html[data-theme="dark"] .plaatje-leeg { background: #373029; }
 
-html[data-theme="dark"] aside nav a[aria-current="page"] {
-  background: #ffd84d;
-  border-color: #ffd84d;
-  color: #14110f;
+html[data-theme="dark"] #cookie-toggle {
+  border-color: #f5f2ea;
+  box-shadow: 4px 4px 0 #f5f2ea;
 }
-
-html[data-theme="dark"] a:focus-visible,
-html[data-theme="dark"] button:focus-visible { outline-color: #ffd84d; }
-
-html[data-theme="dark"] aside nav a:focus-visible,
-html[data-theme="dark"] aside nav button:focus-visible { outline-color: #c4121f; }
