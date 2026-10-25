@@ -18,13 +18,16 @@
   background: #d8c9a8;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;
 }
 
 /* LAYOUT */
+
 body {
   display: grid;
   grid-template-columns: 1fr var(--side);
@@ -42,6 +45,7 @@ body {
 }
 
 /* ZIJBALK */
+
 aside {
   grid-area: zijbalk;
   display: grid;
@@ -73,7 +77,10 @@ aside nav a {
   border: 2px solid #f5f2ea;
   border-radius: 999px;
   background: #f5f2ea;
-  transition: transform .2s ease, background .2s ease, color .2s ease;
+  transition:
+    transform .2s ease,
+    background .2s ease,
+    color .2s ease;
 }
 
 aside nav a:hover {
@@ -93,6 +100,7 @@ aside h1 {
 }
 
 /* KOP */
+
 header {
   grid-area: kop;
   display: grid;
@@ -113,9 +121,12 @@ header h2 {
   font-size: 3rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "OsakaRe", serif;
 }
+
+/* CTA BUTTON */
 
 #cta {
   padding: 12px 24px;
@@ -126,7 +137,10 @@ h1, h2 {
   border: 2px solid #211c18;
   border-radius: 8px;
   box-shadow: 4px 4px 0 #211c18;
-  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  transition:
+    transform .15s ease,
+    box-shadow .15s ease,
+    background .15s ease;
 }
 
 #cta:hover {
@@ -140,7 +154,9 @@ h1, h2 {
   box-shadow: 1px 1px 0 #211c18;
 }
 
-/* COOKIE KNOP + PANEEL (links onder) */
+/* COOKIE KNOP + PANEEL
+   De popup en popupknoppen blijven ongewijzigd. */
+
 #cookie-toggle {
   position: fixed;
   bottom: 1rem;
@@ -176,7 +192,9 @@ h1, h2 {
   box-shadow: 6px 6px 0 #84121c;
 }
 
-#cookie-popup[hidden] { display: none; }
+#cookie-popup[hidden] {
+  display: none;
+}
 
 #cookie-popup .cookie-head {
   display: flex;
@@ -184,7 +202,9 @@ h1, h2 {
   align-items: center;
 }
 
-#cookie-popup h2 { margin: 0; }
+#cookie-popup h2 {
+  margin: 0;
+}
 
 #cookie-close {
   width: 32px;
@@ -204,8 +224,14 @@ h1, h2 {
   border-radius: 6px;
 }
 
-#cookie-popup summary { cursor: pointer; }
-#cookie-popup ul { margin: .4rem 0 .2rem; padding-left: 1.1rem; }
+#cookie-popup summary {
+  cursor: pointer;
+}
+
+#cookie-popup ul {
+  margin: .4rem 0 .2rem;
+  padding-left: 1.1rem;
+}
 
 #cookie-popup .cookie-actions {
   display: flex;
@@ -229,6 +255,7 @@ h1, h2 {
 }
 
 /* INHOUD */
+
 main {
   grid-area: inhoud;
   display: grid;
@@ -264,11 +291,19 @@ main {
   padding: 20px;
   border: 4px solid #211c18;
   border-radius: 10px;
-  background: repeating-linear-gradient(45deg, #f5f2ea 0, #f5f2ea 5px, #e4e0d4 5px, #e4e0d4 7px);
+  background: repeating-linear-gradient(
+    45deg,
+    #f5f2ea 0,
+    #f5f2ea 5px,
+    #e4e0d4 5px,
+    #e4e0d4 7px
+  );
   box-shadow: 5px 5px 0 #211c18;
 }
 
-#intro-tekst p { margin: 6px 0; }
+#intro-tekst p {
+  margin: 6px 0;
+}
 
 #versions {
   grid-area: overzicht;
@@ -277,6 +312,8 @@ main {
   gap: 20px;
 }
 
+/* KAARTEN */
+
 article {
   padding: 20px;
   border: 3px solid #211c18;
@@ -284,7 +321,10 @@ article {
   background: #f5f2ea;
   box-shadow: 6px 6px 0 #211c18;
   text-align: center;
-  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    background .2s ease;
 }
 
 article:hover {
@@ -293,9 +333,13 @@ article:hover {
   box-shadow: 6px 6px 0 #d81e2c;
 }
 
-h3 { margin-top: 0; color: #d81e2c; }
+h3 {
+  margin-top: 0;
+  color: #d81e2c;
+}
 
 /* KLIKBARE KAARTEN */
+
 .kaart {
   display: block;
   color: inherit;
@@ -303,7 +347,9 @@ h3 { margin-top: 0; color: #d81e2c; }
   border-radius: 8px;
 }
 
-.kaart article { height: 100%; }
+.kaart article {
+  height: 100%;
+}
 
 .kaart:active article {
   transform: translate(3px, 3px);
@@ -316,6 +362,7 @@ h3 { margin-top: 0; color: #d81e2c; }
 }
 
 /* VOET */
+
 footer {
   grid-area: voet;
   margin: 0 24px 24px;
@@ -324,13 +371,32 @@ footer {
   font-weight: 700;
 }
 
-img, svg, video { display: block; max-width: 100%; height: auto; }
-button, summary { cursor: pointer; }
-button, input, select, textarea { font: inherit; }
+img,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+summary {
+  cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
 
 /* MOBIEL */
+
 @media (max-width: 700px) {
-  :root { --side: clamp(100px, 25vw, 160px); }
+  :root {
+    --side: clamp(100px, 25vw, 160px);
+  }
 
   body {
     min-width: 0;
@@ -342,7 +408,9 @@ button, input, select, textarea { font: inherit; }
     border-left: 2px solid #211c18;
   }
 
-  aside nav ul { gap: 14px; }
+  aside nav ul {
+    gap: 14px;
+  }
 
   aside nav a {
     width: clamp(84px, 21vw, 124px);
@@ -380,27 +448,42 @@ button, input, select, textarea { font: inherit; }
     grid-template-rows: auto auto;
     grid-template-areas:
       "tekst plaatje"
-      "overzicht";
+      "overzicht overzicht";
     gap: 12px;
     margin: 12px 8px;
   }
 
-  .sectie-plaatje { min-height: 0; }
-  .sectie-plaatje img { width: min(220px, 100%); }
+  .sectie-plaatje {
+    min-height: 0;
+  }
+
+  .sectie-plaatje img {
+    width: min(220px, 100%);
+  }
 
   #intro-tekst,
-  article { padding: 16px; }
+  article {
+    padding: 16px;
+  }
 
   #versions {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr));
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(100%, 130px), 1fr)
+    );
     gap: 12px;
   }
 
-  footer { margin: 0 8px 12px; }
+  footer {
+    margin: 0 8px 12px;
+  }
 }
 
 /* MANGA PAGINA'S */
-main.lijst { display: block; }
+
+main.lijst {
+  display: block;
+}
 
 .manga-grid {
   display: grid;
@@ -426,23 +509,30 @@ main.lijst { display: block; }
 }
 
 /* KLAVER SPIN */
-.spin { transition: transform .4s ease; }
 
-.spin:hover { animation: spin 2s linear infinite; }
+.spin {
+  transition: transform .4s ease;
+}
+
 .spin:hover {
   animation: spin 1s linear infinite;
   transform-origin: center;
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .spin:hover { animation: none; }
+  .spin:hover {
+    animation: none;
+  }
 }
 
 /* CONTACT */
+
 .intro-kaart {
   display: flex;
   gap: 1.5rem;
@@ -452,11 +542,22 @@ main.lijst { display: block; }
   border: 4px solid #211c18;
   border-radius: 10px;
   box-shadow: 5px 5px 0 #211c18;
-  background: repeating-linear-gradient(45deg, #f5f2ea 0, #f5f2ea 5px, #e4e0d4 5px, #e4e0d4 7px);
+  background: repeating-linear-gradient(
+    45deg,
+    #f5f2ea 0,
+    #f5f2ea 5px,
+    #e4e0d4 5px,
+    #e4e0d4 7px
+  );
 }
 
-.intro-kaart h3 { margin: 0 0 6px; }
-.intro-kaart p { margin: 0; }
+.intro-kaart h3 {
+  margin: 0 0 6px;
+}
+
+.intro-kaart p {
+  margin: 0;
+}
 
 .foto {
   width: 160px;
@@ -473,7 +574,9 @@ main.lijst { display: block; }
   gap: 20px;
 }
 
-.contact-grid a { color: #d81e2c; }
+.contact-grid a {
+  color: #ffd446;
+}
 
 @media (max-width: 600px) {
   .intro-kaart {
@@ -483,7 +586,10 @@ main.lijst { display: block; }
 }
 
 /* DARK MODE */
-html[data-theme="dark"] { color: #f5f2ea; }
+
+html[data-theme="dark"] {
+  color: #f5f2ea;
+}
 
 html[data-theme="dark"] body {
   background:
@@ -491,12 +597,16 @@ html[data-theme="dark"] body {
     #211c18;
 }
 
+/* ZIJBALK */
+
 html[data-theme="dark"] aside {
   background: #f5f2ea;
   border-left-color: #f5f2ea;
 }
 
-html[data-theme="dark"] aside h1 { color: #211c18; }
+html[data-theme="dark"] aside h1 {
+  color: #211c18;
+}
 
 html[data-theme="dark"] aside nav a {
   background: #211c18;
@@ -505,9 +615,13 @@ html[data-theme="dark"] aside nav a {
 }
 
 html[data-theme="dark"] aside nav a:hover {
-  background: #d81e2c;
-  border-color: #d81e2c;
+  background: #ffd446;
+  border-color: #ffd446;
+  color: #211c18;
+  transform: scale(1.1) rotate(-3deg);
 }
+
+/* KOP EN KAARTEN */
 
 html[data-theme="dark"] header,
 html[data-theme="dark"] article {
@@ -516,27 +630,101 @@ html[data-theme="dark"] article {
   box-shadow: 6px 6px 0 #f5f2ea;
 }
 
-html[data-theme="dark"] header h2 { color: #f5f2ea; }
+html[data-theme="dark"] header h2 {
+  color: #f5f2ea;
+}
 
 html[data-theme="dark"] article:hover {
   background: #3a332d;
-  box-shadow: 6px 6px 0 #d81e2c;
+  box-shadow: 6px 6px 0 #ffd446;
 }
+
+/* CTA HOVER IN DARK MODE */
+
+html[data-theme="dark"] #cta {
+  color: #211c18;
+  background: #ffd446;
+  border-color: #211c18;
+  box-shadow: 4px 4px 0 #f5f2ea;
+}
+
+html[data-theme="dark"] #cta:hover {
+  color: #211c18;
+  background: #ffe680;
+  transform: translate(-2px, -2px) rotate(-2deg);
+  box-shadow: 6px 6px 0 #f5f2ea;
+}
+
+html[data-theme="dark"] #cta:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #f5f2ea;
+}
+
+/* INTRO EN CONTACTKAART */
 
 html[data-theme="dark"] #intro-tekst,
 html[data-theme="dark"] .intro-kaart {
   border-color: #f5f2ea;
   box-shadow: 5px 5px 0 #f5f2ea;
-  background: repeating-linear-gradient(45deg, #2e2823 0, #2e2823 5px, #373029 5px, #373029 7px);
+  background: repeating-linear-gradient(
+    45deg,
+    #2e2823 0,
+    #2e2823 5px,
+    #373029 5px,
+    #373029 7px
+  );
 }
+
+/* MANGA AFBEELDINGEN */
 
 html[data-theme="dark"] .manga-grid img,
 html[data-theme="dark"] .plaatje-leeg,
-html[data-theme="dark"] .foto { border-color: #f5f2ea; }
+html[data-theme="dark"] .foto {
+  border-color: #f5f2ea;
+}
 
-html[data-theme="dark"] .plaatje-leeg { background: #373029; }
+html[data-theme="dark"] .plaatje-leeg {
+  background: #373029;
+}
+
+/* GELE ACCENTEN IN DARK MODE */
+
+html[data-theme="dark"] h3 {
+  color: #ffd446;
+}
+
+html[data-theme="dark"] footer {
+  color: #ffd446;
+}
+
+html[data-theme="dark"] .contact-grid a {
+  color: #ffd446;
+}
+
+html[data-theme="dark"] .kaart:focus-visible {
+  outline-color: #ffd446;
+}
+
+/* COOKIEKNOP LINKSONDER
+   Alleen deze knop wordt geel.
+   Cookie-popup en de knoppen daarin blijven hetzelfde. */
 
 html[data-theme="dark"] #cookie-toggle {
-  border-color: #f5f2ea;
-  box-shadow: 4px 4px 0 #f5f2ea;
+  background: #ffd446;
+  border-color: #211c18;
+  box-shadow: 4px 4px 0 #211c18;
+  transition: transform .2s ease;
+}
+
+html[data-theme="dark"] #cookie-toggle:hover {
+  background: #ffe680;
+  transform: rotate(-8deg) scale(1.08);
+}
+
+/* ANIMATIES RESPECTEREN TOEGANKELIJKHEIDSINSTELLINGEN */
+
+@media (prefers-reduced-motion: reduce) {
+  .spin:hover {
+    animation: none;
+  }
 }
