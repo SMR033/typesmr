@@ -1,6 +1,11 @@
 # Logboek
 
 <img width="57" height="67" alt="mimikyu" src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b" />
+<details>
+<summary><b>vrij 23 oktober - Rettrospective - eind sprint 3 </b></summary>
+
+
+</details>
 
 <details>
 <summary><b>woe 21 oktober - biweekly geek + Peerfeedback formulier</b></summary>
