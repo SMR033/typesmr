@@ -6,10 +6,15 @@ root.dataset.theme = saved || "light";
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.getElementById("theme-toggle");
   if (!toggle) return;
+
+  const sync = () =>
+    toggle.setAttribute("aria-pressed", String(root.dataset.theme === "dark"));
+  sync();
+
   toggle.addEventListener("click", (e) => {
     e.preventDefault();
-    const next = root.dataset.theme === "dark" ? "light" : "dark";
-    root.dataset.theme = next;
-    try { localStorage.setItem("theme", next); } catch (err) {}
+    root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
+    try { localStorage.setItem("theme", root.dataset.theme); } catch (err) {}
+    sync();
   });
 });

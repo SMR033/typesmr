@@ -1,51 +1,54 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
-    <title>SMR UNIVERSE - Manga's I read</title>
+    <title>SMR UNIVERSE - Manga's I'm currently reading</title>
     <link rel="stylesheet" href="./assets/style/normal.css" />
     <script src="./assets/theme.js"></script>
     <script src="./assets/cookie.js" defer></script>
   </head>
 
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
     <aside>
-      <nav>
+      <nav aria-label="Main menu">
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/contact.html">Contact</a></li>
-          <li><a href="#" id="theme-toggle">Dark theme</a></li>
+          <li><button type="button" id="theme-toggle" aria-pressed="false">Dark theme</button></li>
+          <li><a href="/Intergalactic%20lyrics/intergalactic.html">Lyrics assignment</a></li>
         </ul>
       </nav>
-      <h1>SMR READS SMR READS SMR READS</h1>
+      <p class="zijtitel" aria-hidden="true">SMR READS SMR READS SMR READS</p>
     </aside>
 
     <header>
-      <h2>MANGA'S I'm currently reading</h2>
+      <h1>Manga's I'm currently reading</h1>
       <a id="cta" href="/">back home</a>
     </header>
 
-    <main class="lijst">
+    <main class="lijst" id="main" tabindex="-1">
       <section class="manga-grid">
 
         <article>
-          <img src="assets/style/piccies/homunculus1.jpg" alt="Manga titel 1" />
-          <h3>Homunculus</h3>
-          <p>Homunculus is a manga about a older man who gains the powers to watch over the world.</p>
+          <img src="assets/style/piccies/homunculus1.jpg" alt="Cover of Homunculus" />
+          <h2>Homunculus</h2>
+          <p>Homunculus is a manga about an older man who gains the power to watch over the world.</p>
         </article>
 
         <article>
-          <img src="assets/style/piccies/jagaaan1.png" alt="Manga titel 1" />
-          <h3>Jagaaan</h3>
+          <img src="assets/style/piccies/jagaaan1.png" alt="Cover of Jagaaan" />
+          <h2>Jagaaan</h2>
           <p>Jagaaan is a manga about a police officer who gets involved in a somewhat weird parasite situation.</p>
         </article>
 
         <article>
-          <img src="assets/style/piccies/manhole1.jpg" alt="Manga titel 1" />
-          <h3>Manhole</h3>
-          <p>Manhole is a three volume bio horror manga where two detectives investigate a lethal, engineered parasite spreading from city sewers, racing to stop a catastrophic, man made epidemic before it is too late.</p>
+          <img src="assets/style/piccies/manhole1.jpg" alt="Cover of Manhole" />
+          <h2>Manhole</h2>
+          <p>Manhole is a three-volume bio-horror manga where two detectives investigate a lethal, engineered parasite spreading from city sewers, racing to stop a catastrophic, man-made epidemic before it is too late.</p>
         </article>
 
       </section>

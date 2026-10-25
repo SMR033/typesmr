@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,44 +11,43 @@
   </head>
 
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
     <aside>
-      <nav>
+      <nav aria-label="Main menu">
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/contact.html">Contact</a></li>
-          <li><a href="#" id="theme-toggle">Dark theme</a></li>
+          <li><button type="button" id="theme-toggle" aria-pressed="false">Dark theme</button></li>
+          <li><a href="/Intergalactic%20lyrics/intergalactic.html">Lyrics assignment</a></li>
         </ul>
       </nav>
-      <h1>SMR READS SMR READS SMR READS</h1>
+      <p class="zijtitel" aria-hidden="true">SMR READS SMR READS SMR READS</p>
     </aside>
 
     <header>
-      <h2>MANGA'S I WANT TO READ</h2>
+      <h1>Manga's I want to read</h1>
       <a id="cta" href="/">back home</a>
     </header>
 
-    <main class="lijst">
+    <main class="lijst" id="main" tabindex="-1">
       <section class="manga-grid">
 
         <article>
-          <!-- PLAATJE HIER: haal het grijze vak hieronder weg en plak je <img> -->
-          <div class="plaatje-leeg">plaatje hier</div>
-          <!-- voorbeeld: <img src="assets/style/piccies/naam.png" alt="Omschrijving" /> -->
-          <h3>Manga titel 1</h3>
+          <div class="plaatje-leeg" aria-hidden="true">plaatje hier</div>
+          <h2>Manga title 1</h2>
           <p>soon</p>
         </article>
 
         <article>
-          <!-- PLAATJE HIER -->
-          <div class="plaatje-leeg">plaatje hier</div>
-          <h3>Manga titel 2</h3>
+          <div class="plaatje-leeg" aria-hidden="true">plaatje hier</div>
+          <h2>Manga title 2</h2>
           <p>soon</p>
         </article>
 
         <article>
-          <!-- PLAATJE HIER -->
-          <div class="plaatje-leeg">plaatje hier</div>
-          <h3>Manga titel 3</h3>
+          <div class="plaatje-leeg" aria-hidden="true">plaatje hier</div>
+          <h2>Manga title 3</h2>
           <p>soon</p>
         </article>
 

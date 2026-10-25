@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,66 +11,68 @@
   </head>
 
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
     <aside>
-      <nav>
+      <nav aria-label="Main menu">
         <ul>
-          <li><a href="/">Home</a></li>
+          <li><a href="/" aria-current="page">Home</a></li>
           <li><a href="/contact.html">Contact</a></li>
-          <li><a href="#" id="theme-toggle">Dark theme</a></li>
-          <li><a href="/Intergalactic lyrics/intergalactic.html">Lyrics assigment
-          </a></li>
+          <li><button type="button" id="theme-toggle" aria-pressed="false">Dark theme</button></li>
+          <li><a href="/Intergalactic%20lyrics/intergalactic.html">Lyrics assignment</a></li>
         </ul>
       </nav>
-      <h1>SMR READS SMR READS SMR READ</h1>
+      <p class="zijtitel" aria-hidden="true">SMR READS SMR READS SMR READS</p>
     </aside>
 
     <header>
-      <h2>SMR READS</h2>
-      <a id="cta" href="#versions">go down </a>
+      <h1>SMR READS</h1>
+      <a id="cta" href="#versions" aria-label="Go down to the manga lists">go down</a>
     </header>
 
-    <main>
+    <main id="main" tabindex="-1">
       <section class="sectie-plaatje">
-        <img src="./assets/style/piccies/crobat.gif" alt="Shiny Crobat" />
+        <img src="./assets/style/piccies/crobat.gif" alt="Shiny Crobat, a Pokémon" />
       </section>
 
       <section id="intro-tekst">
-        <p>Yo This is SMR READS!</p>
-        <p>Yo, this is SMR READS! I'm Samir, and I made this site for a school project. 
-          It's basically my little corner of the internet for all manga the manga i read, want to read, and love the most.
-          You'll find what I've been reading lately, what's still on my list, and my favourites.</p>
-          <article>
-        <p>I'm kind of obsessed with covers. When I finish a series online I'll buy a volume, 
-          but only if the cover is actually good looking and interesting enough. Sometimes there are small details or Easter eggs hidden in them, so I like to look at them properly.
-          The site isn't finished yet, so more stuff is coming. Just look around, and thanks for stopping by.</p>
-          </article>
+        <p>
+          Yo, this is SMR READS! I'm Samir and I made this site for a school
+          project. It's my corner of the internet for manga: what I'm reading,
+          what I want to read next and my favourites.
+        </p>
+        <p>
+          I'm also a cover nerd. If a series is finished and the cover is
+          actually nice, I buy a volume. The site isn't done yet, so look
+          around and thanks for stopping by.
+        </p>
       </section>
 
       <section id="versions">
         <article>
-          <img class="spin" src="assets/style/piccies/black clover.png" alt="Five leaf clover from black clover" />
-          <h3>Fun fact!</h3>
+          <img class="spin" src="assets/style/piccies/black%20clover.png" alt="" />
+          <h2>Fun fact!</h2>
           <p>Did you know that... Naoko Takeuchi (the creator of Sailor Moon) and Yoshihiro Togashi (the creator of Hunter x Hunter and Yu Yu Hakusho) have been happily married since 1999.</p>
         </article>
 
-        <a class="kaart" href="manga-read.html">
+        <a class="kaart" href="manga-read.html" aria-labelledby="t-read" aria-describedby="d-read">
           <article>
-            <h3>Manga's I'm currently reading</h3>
-            <p>These are all the manga I'm currently reading wich are always updated (last updated on: 23-10-2026)</p>
+            <h2 id="t-read">Manga's I'm currently reading</h2>
+            <p id="d-read">These are all the manga I'm currently reading, which are always updated (last updated on: 23-10-2026)</p>
           </article>
         </a>
 
-        <a class="kaart" href="manga-want.html">
+        <a class="kaart" href="manga-want.html" aria-labelledby="t-want" aria-describedby="d-want">
           <article>
-            <h3>Manga's I want to read</h3>
-            <p>These are all the manga I want to read in the future (last updated on: 23-10-2026)</p>
+            <h2 id="t-want">Manga's I want to read</h2>
+            <p id="d-want">These are all the manga I want to read in the future (last updated on: 23-10-2026)</p>
           </article>
         </a>
 
-        <a class="kaart" href="manga-favourite.html">
+        <a class="kaart" href="manga-favourite.html" aria-labelledby="t-fav" aria-describedby="d-fav">
           <article>
-            <h3>My favourite manga</h3>
-            <p>These are all the manga I love the most (last updated on: 23-10-2026)</p>
+            <h2 id="t-fav">My favourite manga</h2>
+            <p id="d-fav">These are all the manga I love the most (last updated on: 23-10-2026)</p>
           </article>
         </a>
       </section>
@@ -79,12 +81,5 @@
     <footer>
       <p>&copy; 2026 SMR Universe. All rights reserved... I think...</p>
     </footer>
-
-    <script>
-      document.getElementById("cta").addEventListener("click", (e) => {
-        e.preventDefault();
-        document.getElementById("versions").scrollIntoView({ behavior: "smooth" });
-      });
-    </script>
   </body>
 </html>
