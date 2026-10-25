@@ -2,7 +2,7 @@
 
 <img width="57" height="67" alt="mimikyu" src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b" />
 
-<details open>
+<details>
 <summary><b>woe 21 oktober - biweekly geek + Peerfeedback formulier</b></summary>
 
 De dag begon met een biweekly geek 
@@ -309,8 +309,6 @@ Bij "Hello, CSS" leerde ik hoe je die twee dingen (HTML en CSS) aan elkaar koppe
 1.Als inline styles zo slecht zijn omdat ze niet herbruikbaar zijn, waarom bestaat die optie dan uberhaupt nog in HTML/CSS, is dat puureerbetoon achtig iets of zijn er nog situaties1. waar het wel handig is?
 2.Ze zeggen dat je bij em units je hele pagina kan laten meeschalen als je de basis fontsize aanpast, maar hoe werkt dat dan bij geneste elementen (bv een span in een p in een div), telt em dan op vanaf de parent of vanaf de root?
 Wat me verwondert (MDN, mee naar de les)
-
-Wat me verwondert is dat MDN "Debugging HTML" letterlijk als eigen apart hoofdstuk heeft naast alle content-lessen. Ik had niet verwacht dat foutzoeken in HTML zo'n eigen ding is, ik dacht altijd dat HTML zo simpel is dat er weinig mis kan gaan (in tegenstelling tot CSS/JS waar debuggen logischer voelt), maar blijkbaar is dat serieus genoeg om er een losse les aan te wijden.
 
 </details>
 
