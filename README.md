@@ -112,6 +112,13 @@ laptop/websites bedienen met alleen een toetsenboord is best moeilijk al hoewel 
 
 Ik vindt het meest lastige dus om met het cognetieve gedeelte van websites rekening houden dus best lastig maar daar denken de meeste wel hetzelfde over.
 
+<img width="1285" height="1600" alt="wcag5" src="https://github.com/user-attachments/assets/43d805c1-190a-43c8-9855-0aea2cf0f61f" />
+<img width="1500" height="1274" alt="wcag4" src="https://github.com/user-attachments/assets/59508552-8ead-4694-aa6e-2feb20c13b8e" />
+<img width="1167" height="1599" alt="wcag3" src="https://github.com/user-attachments/assets/fac1a9c1-30bc-432e-82a9-a39d512e2aa3" />
+<img width="1304" height="1311" alt="wcag2" src="https://github.com/user-attachments/assets/423c853b-392e-44e3-beed-b934027fa5ca" />
+<img width="1190" height="1600" alt="wcag1" src="https://github.com/user-attachments/assets/6415b6b2-0860-40fb-b263-5b4c852daf07" />
+
+
 </details>
 
 <details>
