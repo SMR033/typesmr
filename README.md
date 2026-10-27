@@ -283,12 +283,15 @@ checkout:
 </details>
 
 <details>
-<summary><b>vrij 4 september - Ziek afgemeld</b></summary>
+<summary><b>vrij 4 september - 2 Deep dives </b></summary>
 S0 - Schetsen van o.a. interactie en animatie
+Tijdens deze deep dive leerden we hoe we ideeën snel en eenvoudig op papier kunnen zetten, zonder dat we goed hoeven te kunnen tekenen. Dit helpt om ideeën duidelijker te maken en makkelijker met anderen te delen. Door onze ideeën te schetsen, kunnen we beter zien hoe we ons een ontwerp voorstellen en ontdekken of bepaalde onderdelen anders uitpakken dan we in ons hoofd hadden bedacht. Hierdoor krijgen we meer inzicht in ons idee en kunnen we het verder uitwerken tot een prototype of ontwerp.
 <img width="1306" height="2000" alt="ddschets4" src="https://github.com/user-attachments/assets/d33e3941-1d3e-442a-b973-77cbaeea65f2" />
 <img width="1465" height="2000" alt="ddschets3" src="https://github.com/user-attachments/assets/048df33c-9f63-4aeb-b014-f6e23353f991" />
 <img width="1301" height="2000" alt="ddschets2" src="https://github.com/user-attachments/assets/3613d5b7-aa55-4efd-91db-141e97374aa9" />
 <img width="1500" height="1838" alt="ddschets1" src="https://github.com/user-attachments/assets/ea1481e4-b2a7-4ac6-a6b3-c94383a9eac9" />
+
+S0 - Typografie
 
 </details>
 
