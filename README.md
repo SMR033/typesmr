@@ -27,6 +27,8 @@ De dag begon met een biweekly geek
 
 Verder zijn we In de les zijn bezig geweest met een peerfeedback formulier met z'n vieren (Ikke, Dewi Annelot en Leonie)
 Het kwam er op neer dat ik best goed stond voor alles alleen valt er wel nog veel werk te doen omtrent het screenreader ervaring.
+<img width="1327" height="1600" alt="peerfeedback1" src="https://github.com/user-attachments/assets/20b80826-0526-400a-ad45-618e5c21897b" />
+<img width="1419" height="1600" alt="peerfeedback 2" src="https://github.com/user-attachments/assets/e134bb3b-dab9-435a-911a-62d8f2799c12" />
 
 
 
