@@ -246,6 +246,11 @@ ext Markup Language) handig voor?
 
 We sloten sprint 1 af met een retrospective 
 
+<img width="1600" height="1095" alt="retrospectives1" src="https://github.com/user-attachments/assets/e5a75539-0579-4b4e-9e08-5b9b0acff240" />
+<img width="1600" height="1146" alt="retrospectives2" src="https://github.com/user-attachments/assets/98948aea-aefa-49f7-8427-8beba707d4f3" />
+<img width="1600" height="1157" alt="retrospectives3" src="https://github.com/user-attachments/assets/b9755428-637f-4f9b-b526-507d916a967a" />
+
+
 </details>
 
 <details>
