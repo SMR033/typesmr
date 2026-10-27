@@ -4,9 +4,17 @@
 
 <details>
 <summary><b>ma 26 oktober - Expo einde blok </b></summary>
+In dit blok heb ik mijn eigen website gemaakt, SMR READS, helemaal over manga en mooie covers. Ik begon simpel en heb er steeds meer bij gebouwd, zoals een zijbalk, een dark theme en een cookie knop. Met CSS snap ik nu eindelijk grid en media queries, en clamp() is echt een gamechanger voor tekst die meeschaalt. Ook leuk dat je met button en details een dropdown kan maken zonder JavaScript. Verder heb ik uitgezocht welke gegevens er op mijn site verwerkt worden, bijvoorbeeld door GitHub Pages en het digitaaltuintje component. Mijn cookietekst zei analytics terwijl ik dat helemaal niet gebruik, oeps, dat heb ik gefixt. Ik wist eerlijk gezegd niet dat ik dit in me had, om zelf een leuke site te maken die er ook nog goed uitziet. De site is nog niet af, want er staan nog lege plekken en de lyrics pagina kan beter, maar in de toekomst wordt hij nog een stuk vetter. Daar ga ik zeker mee verder.
 
+Bij de expo kreeg ik vooral complimenten en niet echt feedback waar ik wat aan had. Leuk om te horen, maar ik kan er weinig mee verbeteren. Wel heb ik in mijn laatste retrospect de feedback van Charlie verwerkt, en dat ging me goed af.
+
+Hier is de hele outro met dat erbij:
+
+In dit blok heb ik mijn eigen website gemaakt, SMR READS, helemaal over manga en mooie covers. Ik begon simpel en heb er steeds meer bij gebouwd, zoals een zijbalk, een dark theme en een cookie knop. Met CSS snap ik nu eindelijk grid en media queries, en clamp() is echt een gamechanger voor tekst die meeschaalt. Ook leuk dat je met button en details een dropdown kan maken zonder JavaScript. Verder heb ik uitgezocht welke gegevens er op mijn site verwerkt worden, bijvoorbeeld door GitHub Pages en het digitaaltuintje component. Mijn cookietekst zei analytics terwijl ik dat helemaal niet gebruik, oeps, dat heb ik gefixt. Bij de expo kreeg ik vooral complimenten en weinig echte feedback, dus daar heb ik niet veel aan gehad. De feedback van Charlie uit mijn laatste retrospect heb ik wel verwerkt, en dat ging me goed af. Ik wist eerlijk gezegd niet dat ik dit in me had, om zelf een leuke site te maken die er ook nog goed uitziet. De site is nog niet af, want er staan nog lege plekken en de lyrics pagina kan beter, maar in de toekomst wordt hij nog een stuk vetter. Daar ga ik zeker mee verder.
 <img width="1705" height="1079" alt="expo stickers" src="https://github.com/user-attachments/assets/2f310fe6-acdf-4d8b-b58f-3350f595bb46" />
 
+<img width="1917" height="1077" alt="sitefinished" src="https://github.com/user-attachments/assets/26b1da81-94b2-4b10-aad1-744ab5d3eea8" />
+<img width="1907" height="1070" alt="sitefinisheddark" src="https://github.com/user-attachments/assets/a90ff06f-cc92-42d1-b81d-55a1328c6cf2" />
 
 </details>
 
