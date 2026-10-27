@@ -148,9 +148,7 @@ motorisch
 <details>
 <summary><b>woe 23 september - Privay hoorcollege</b></summary>
 
-<img width="1080" height="1920" alt="wireframe" src="https://github.com/user-attachments/assets/b94d6535-b300-4923-bc80-5c6a6e2c3e46" />
-
-hoor college
+<img width="2048" height="1313" alt="schetsje wireframe" src="https://github.com/user-attachments/assets/1e622099-8a4a-4f4f-b894-6544bbb6e06c" />
 
 Human Consent Component
 Opdracht:
