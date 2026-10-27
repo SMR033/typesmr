@@ -292,6 +292,27 @@ Tijdens deze deep dive leerden we hoe we ideeën snel en eenvoudig op papier kun
 <img width="1500" height="1838" alt="ddschets1" src="https://github.com/user-attachments/assets/ea1481e4-b2a7-4ac6-a6b3-c94383a9eac9" />
 
 S0 - Typografie
+Voor de deep dive moesten we eerst deze 2 artikelen lezen als voorbereiding:
+https://www.type-together.com/how-to-choose-the-right-typeface
+https://arielsalminen.com/2016/typography-for-user-interfaces/
+
+Punten die ik eruit heb gehaald:
+
+Artikel 1: How to choose the right typeface
+
+Ik moet eerst bedenken waar de letter voor is. Een lange tekst heeft duidelijke, ruime letters nodig. Een grote titel mag smaller zijn.
+Ik gebruik liever weinig lettertypes. Een lettertype met cursief en vet is vaak genoeg.
+Ik check of alle tekens erin zitten, zoals é, ï en č. Anders kom je er te laat achter dat iets ontbreekt.
+De letter moet passen bij het medium en bij de boodschap. Hele dunne letters zijn slecht te lezen op een scherm. Een trouwkaart vraagt ook om een andere letter dan het nieuws.
+Bij het combineren kies ik lettertypes die elk een eigen taak hebben, in een andere grootte staan en dezelfde sfeer hebben.
+
+Artikel 2: Typography for User Interfaces
+
+In een app of website is bijna alles tekst. Goede tekst en letters zijn dus heel belangrijk.
+Losse woorden lees je langzamer dan zinnen. In een app staan vooral losse woorden, dus de letters moeten heel duidelijk zijn.
+Letters mogen niet op elkaar lijken. In Helvetica lijken de hoofdletter I en de kleine l bijna hetzelfde, dus dat is geen goede keuze.
+Het lettertype moet niet opvallen. Mensen moeten gewoon kunnen doen wat ze willen doen.
+Voor kleine schermen werken brede letters met veel ruimte ertussen het best. De lijnen van de letters mogen niet te dun zijn, anders zie je ze bijna niet.
 
 </details>
 
