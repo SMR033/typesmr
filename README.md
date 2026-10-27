@@ -122,14 +122,17 @@ Ik vindt het meest lastige dus om met het cognetieve gedeelte van websites reken
 </details>
 
 <details>
-<summary><b>ma 28 september</b></summary>
+<summary><b>ma 28 september -  biweekly geek </b></summary>
 
 Voorbereidingen die we moesten doen voor vandaag waren als volgt:
 https://www.youtube.com/watch?v=HRvbrsXKY74
 https://dlo.mijnhva.nl/content/enforced/759389-FDMCI-CRS-00046845/ChatGPT%20faces%20tougher%20rules%20under%20EU%20online%20safety%20regime.pdf
 https://www.euronews.com/2026/07/27/ai-chatbots-citing-russian-propaganda-sourced-from-eu-sanctioned-outlet
 
-checkout: 
+![Uploading biweekly geek 2.jpeg…]()
+
+
+
 ux is heel belangrijk!
 
 de 4 bepekringen die je kan hebben op je website:
