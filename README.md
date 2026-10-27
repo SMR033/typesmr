@@ -13,7 +13,11 @@
 
 <details>
 <summary><b>vrij 23 oktober - Rettrospective - eind sprint 3 </b></summary>
-test
+Mijn retrospective van dit blok:
+<img width="1600" height="1142" alt="retrospective3" src="https://github.com/user-attachments/assets/bcefe552-c7c3-43df-a24a-76c2d52a3c2c" />
+<img width="1600" height="1107" alt="retrospective32" src="https://github.com/user-attachments/assets/361573ba-6964-46cc-9ab5-0b0f9ac88641" />
+<img width="1600" height="1137" alt="retrospective31" src="https://github.com/user-attachments/assets/15b95988-aa6e-475e-aee9-5a4556fd4f78" />
+
 
 </details>
 
