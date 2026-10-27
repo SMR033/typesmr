@@ -148,7 +148,17 @@ motorisch
 </details>
 
 <details>
-<summary><b>vrij 25 september - ziek gemeld</b></summary>
+<summary><b>vrij 25 september - compliance / Valide HTML </b></summary>
+
+Schrijven
+
+
+
+
+
+Vandaag ben ik aan de slag gegaan met het valideren van mijn website met behulp van een HTML validator website die ons tijdens de les werd aangeraden.
+<img width="1042" height="897" alt="Validatorbefore" src="https://github.com/user-attachments/assets/1602500d-4a1d-4a0b-87b4-0f77bccf226a" />
+
 
 </details>
 
