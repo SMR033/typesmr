@@ -150,14 +150,22 @@ motorisch
 <details>
 <summary><b>vrij 25 september - compliance / Valide HTML </b></summary>
 
-Schrijven
 
 
 
 
 
-Vandaag ben ik aan de slag gegaan met het valideren van mijn website met behulp van een HTML validator website die ons tijdens de les werd aangeraden.
+
+Vandaag ben ik aan de slag gegaan met het valideren van mijn website met behulp van een HTML-validator die ons tijdens de les werd aangeraden.
+Ik had gelukkig simpele errors. De validator vertelde me dat ik geen `/` hoef te gebruiken aan het einde van mijn `<meta>`- en `<link>`-elementen, maar gewoon kan eindigen op `>`. Daarnaast zaten er spaties in twee bestandsnamen (in een afbeelding en een link). Die heb ik vervangen door een streepje, zoals je hieronder ziet.
+
 <img width="1042" height="897" alt="Validatorbefore" src="https://github.com/user-attachments/assets/1602500d-4a1d-4a0b-87b4-0f77bccf226a" />
+before
+<img width="1426" height="540" alt="codefixed" src="https://github.com/user-attachments/assets/20fa6314-98bf-43fa-b044-f4ba873ea69e" />
+<img width="867" height="121" alt="fix code 2" src="https://github.com/user-attachments/assets/895bceac-167f-4602-8034-0e1f155dd5cf" />
+<img width="696" height="240" alt="fix code" src="https://github.com/user-attachments/assets/a28a1eb9-518e-4f72-bf29-45ce89b4f311" />
+
+after
 
 
 </details>
