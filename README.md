@@ -1,6 +1,16 @@
 # Logboek
 
 <img width="57" height="67" alt="mimikyu" src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b" />
+
+<details>
+<summary><b>ma 26 oktober - Expo einde blok </b></summary>
+
+<img width="1705" height="1079" alt="expo stickers" src="https://github.com/user-attachments/assets/2f310fe6-acdf-4d8b-b58f-3350f595bb46" />
+
+
+</details>
+
+
 <details>
 <summary><b>vrij 23 oktober - Rettrospective - eind sprint 3 </b></summary>
 test
@@ -12,13 +22,13 @@ test
 
 De dag begon met een biweekly geek 
 
-<img width="1600" height="1170" alt="cookies opdracht" src="https://github.com/user-attachments/assets/56bf444e-f0a4-4418-bb48-c3e71b09a42b" />
+<img width="2040" height="1138" alt="Biweekly geek 3" src="https://github.com/user-attachments/assets/a642224a-f51e-4de4-8c59-f0a7bb1e21d5" />
+
 
 Verder zijn we In de les zijn bezig geweest met een peerfeedback formulier met z'n vieren (Ikke, Dewi Annelot en Leonie)
 Het kwam er op neer dat ik best goed stond voor alles alleen valt er wel nog veel werk te doen omtrent het screenreader ervaring.
 
-<img width="1200" height="1600" alt="peerfeedback 2" src="https://github.com/user-attachments/assets/a6e4ae61-0f16-4747-9f80-377abfc5f781" />
-<img width="1200" height="1600" alt="peerfeedback 1" src="https://github.com/user-attachments/assets/2d26e12d-9c9b-481a-87fe-1bd485120488" />
+
 
 mijn top 3 belangrijke verbeter punten
  - HTML valideren
