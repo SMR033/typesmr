@@ -38,6 +38,10 @@ Samen 1 op 1 hebben we gekeken met mijn duo of beide onze websites webby zijn er
 
 <details>
 <summary><b>wo 7 oktober - Hiërarchie en grid</b></summary>
+ schetsen om inspiratie op te doen voor een grid en bijpassende stijl.
+<img width="1200" height="1600" alt="schets1" src="https://github.com/user-attachments/assets/8d939dbf-d405-4fb6-b87f-7b0548d1a50e" />
+<img width="1200" height="1600" alt="schets3" src="https://github.com/user-attachments/assets/e1b90f78-28aa-4d26-821a-fee890067e9f" />
+<img width="1200" height="1600" alt="schets2" src="https://github.com/user-attachments/assets/9fe2f3b0-2669-4577-a05a-812a25d8cc90" />
 
 In mijn tweede versie heb ik de tekst losgelaten van de strakke kolom. Regels staan nu net anders springend op een grid, waardoor er ruimte en speling ontstaat. Grote woorden als “Another” en “Dimension” krijgen extra lucht, kleine woorden blijven compact. De verschuivingen geven beweging, terwijl de vaste kolombreedte samenhang en overzicht houdt zodat het meer speelser is en wat meer leven creëert. Wat ik dus super vet vindt.
 <img width="1682" height="917" alt="intergalactic v2" src="https://github.com/user-attachments/assets/dc157c7d-295e-44af-9e4c-2f35e6d9ff4c" />
@@ -280,6 +284,11 @@ checkout:
 
 <details>
 <summary><b>vrij 4 september - Ziek afgemeld</b></summary>
+S0 - Schetsen van o.a. interactie en animatie
+<img width="1306" height="2000" alt="ddschets4" src="https://github.com/user-attachments/assets/d33e3941-1d3e-442a-b973-77cbaeea65f2" />
+<img width="1465" height="2000" alt="ddschets3" src="https://github.com/user-attachments/assets/048df33c-9f63-4aeb-b014-f6e23353f991" />
+<img width="1301" height="2000" alt="ddschets2" src="https://github.com/user-attachments/assets/3613d5b7-aa55-4efd-91db-141e97374aa9" />
+<img width="1500" height="1838" alt="ddschets1" src="https://github.com/user-attachments/assets/ea1481e4-b2a7-4ac6-a6b3-c94383a9eac9" />
 
 </details>
 
