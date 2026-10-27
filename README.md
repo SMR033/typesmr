@@ -96,10 +96,7 @@ Kerning is de ruimte tussen twee specifieke letters, tracking is de ruimte tusse
 
 </details>
 
-<details>
-<summary><b>vrij 2 oktober</b></summary>
 
-</details>
 
 <details>
 <summary><b>woe 30 september -  WCAG checklist </b></summary>
