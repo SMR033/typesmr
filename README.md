@@ -242,7 +242,7 @@ ext Markup Language) handig voor?
 </details>
 
 <details>
-<summary><b>vrij 18 september - Afsluiting sprint 1</b></summary>
+<summary><b>vrij 18 september - retrospective sprint 1</b></summary>
 
 We sloten sprint 1 af met een retrospective 
 
