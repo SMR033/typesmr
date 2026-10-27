@@ -1,9 +1,23 @@
 # Logboek
 
 <img width="57" height="67" alt="mimikyu" src="https://github.com/user-attachments/assets/69287044-d5de-4ddd-827f-d492f5bb7d2b" />
+
+<details>
+<summary><b>ma 26 oktober - Expo einde blok </b></summary>
+
+<img width="1705" height="1079" alt="expo stickers" src="https://github.com/user-attachments/assets/2f310fe6-acdf-4d8b-b58f-3350f595bb46" />
+
+
+</details>
+
+
 <details>
 <summary><b>vrij 23 oktober - Rettrospective - eind sprint 3 </b></summary>
-test
+Mijn retrospective van dit blok:
+<img width="1600" height="1142" alt="retrospective3" src="https://github.com/user-attachments/assets/bcefe552-c7c3-43df-a24a-76c2d52a3c2c" />
+<img width="1600" height="1107" alt="retrospective32" src="https://github.com/user-attachments/assets/361573ba-6964-46cc-9ab5-0b0f9ac88641" />
+<img width="1600" height="1137" alt="retrospective31" src="https://github.com/user-attachments/assets/15b95988-aa6e-475e-aee9-5a4556fd4f78" />
+
 
 </details>
 
@@ -12,13 +26,15 @@ test
 
 De dag begon met een biweekly geek 
 
-<img width="1600" height="1170" alt="cookies opdracht" src="https://github.com/user-attachments/assets/56bf444e-f0a4-4418-bb48-c3e71b09a42b" />
+<img width="2040" height="1138" alt="Biweekly geek 3" src="https://github.com/user-attachments/assets/a642224a-f51e-4de4-8c59-f0a7bb1e21d5" />
+
 
 Verder zijn we In de les zijn bezig geweest met een peerfeedback formulier met z'n vieren (Ikke, Dewi Annelot en Leonie)
 Het kwam er op neer dat ik best goed stond voor alles alleen valt er wel nog veel werk te doen omtrent het screenreader ervaring.
+<img width="1327" height="1600" alt="peerfeedback1" src="https://github.com/user-attachments/assets/20b80826-0526-400a-ad45-618e5c21897b" />
+<img width="1419" height="1600" alt="peerfeedback 2" src="https://github.com/user-attachments/assets/e134bb3b-dab9-435a-911a-62d8f2799c12" />
 
-<img width="1200" height="1600" alt="peerfeedback 2" src="https://github.com/user-attachments/assets/a6e4ae61-0f16-4747-9f80-377abfc5f781" />
-<img width="1200" height="1600" alt="peerfeedback 1" src="https://github.com/user-attachments/assets/2d26e12d-9c9b-481a-87fe-1bd485120488" />
+
 
 mijn top 3 belangrijke verbeter punten
  - HTML valideren
@@ -38,6 +54,10 @@ Samen 1 op 1 hebben we gekeken met mijn duo of beide onze websites webby zijn er
 
 <details>
 <summary><b>wo 7 oktober - Hiërarchie en grid</b></summary>
+ schetsen om inspiratie op te doen voor een grid en bijpassende stijl.
+<img width="1200" height="1600" alt="schets1" src="https://github.com/user-attachments/assets/8d939dbf-d405-4fb6-b87f-7b0548d1a50e" />
+<img width="1200" height="1600" alt="schets3" src="https://github.com/user-attachments/assets/e1b90f78-28aa-4d26-821a-fee890067e9f" />
+<img width="1200" height="1600" alt="schets2" src="https://github.com/user-attachments/assets/9fe2f3b0-2669-4577-a05a-812a25d8cc90" />
 
 In mijn tweede versie heb ik de tekst losgelaten van de strakke kolom. Regels staan nu net anders springend op een grid, waardoor er ruimte en speling ontstaat. Grote woorden als “Another” en “Dimension” krijgen extra lucht, kleine woorden blijven compact. De verschuivingen geven beweging, terwijl de vaste kolombreedte samenhang en overzicht houdt zodat het meer speelser is en wat meer leven creëert. Wat ik dus super vet vindt.
 <img width="1682" height="917" alt="intergalactic v2" src="https://github.com/user-attachments/assets/dc157c7d-295e-44af-9e4c-2f35e6d9ff4c" />
@@ -82,7 +102,7 @@ Kerning is de ruimte tussen twee specifieke letters, tracking is de ruimte tusse
 </details>
 
 <details>
-<summary><b>woe 30 september</b></summary>
+<summary><b>woe 30 september -  WCAG checklist </b></summary>
 
 Checkout:
 
@@ -91,6 +111,13 @@ WCAG staat Web Content Accessibility Guidelines
 laptop/websites bedienen met alleen een toetsenboord is best moeilijk al hoewel je wel zicht heb en het meer duidelijker is maar toch vind ik een screenreader simpel om te navigeren.
 
 Ik vindt het meest lastige dus om met het cognetieve gedeelte van websites rekening houden dus best lastig maar daar denken de meeste wel hetzelfde over.
+
+<img width="1285" height="1600" alt="wcag5" src="https://github.com/user-attachments/assets/43d805c1-190a-43c8-9855-0aea2cf0f61f" />
+<img width="1500" height="1274" alt="wcag4" src="https://github.com/user-attachments/assets/59508552-8ead-4694-aa6e-2feb20c13b8e" />
+<img width="1167" height="1599" alt="wcag3" src="https://github.com/user-attachments/assets/fac1a9c1-30bc-432e-82a9-a39d512e2aa3" />
+<img width="1304" height="1311" alt="wcag2" src="https://github.com/user-attachments/assets/423c853b-392e-44e3-beed-b934027fa5ca" />
+<img width="1190" height="1600" alt="wcag1" src="https://github.com/user-attachments/assets/6415b6b2-0860-40fb-b263-5b4c852daf07" />
+
 
 </details>
 
@@ -121,16 +148,24 @@ motorisch
 </details>
 
 <details>
-<summary><b>vrij 25 september - ziek gemeld</b></summary>
+<summary><b>vrij 25 september - compliance / Valide HTML </b></summary>
+
+Schrijven
+
+
+
+
+
+Vandaag ben ik aan de slag gegaan met het valideren van mijn website met behulp van een HTML validator website die ons tijdens de les werd aangeraden.
+<img width="1042" height="897" alt="Validatorbefore" src="https://github.com/user-attachments/assets/1602500d-4a1d-4a0b-87b4-0f77bccf226a" />
+
 
 </details>
 
 <details>
 <summary><b>woe 23 september - Privay hoorcollege</b></summary>
 
-<img width="1080" height="1920" alt="wireframe" src="https://github.com/user-attachments/assets/b94d6535-b300-4923-bc80-5c6a6e2c3e46" />
-
-hoor college
+<img width="2048" height="1313" alt="schetsje wireframe" src="https://github.com/user-attachments/assets/1e622099-8a4a-4f4f-b894-6544bbb6e06c" />
 
 Human Consent Component
 Opdracht:
@@ -279,7 +314,36 @@ checkout:
 </details>
 
 <details>
-<summary><b>vrij 4 september - Ziek afgemeld</b></summary>
+<summary><b>vrij 4 september - 2 Deep dives </b></summary>
+S0 - Schetsen van o.a. interactie en animatie
+Tijdens deze deep dive leerden we hoe we ideeën snel en eenvoudig op papier kunnen zetten, zonder dat we goed hoeven te kunnen tekenen. Dit helpt om ideeën duidelijker te maken en makkelijker met anderen te delen. Door onze ideeën te schetsen, kunnen we beter zien hoe we ons een ontwerp voorstellen en ontdekken of bepaalde onderdelen anders uitpakken dan we in ons hoofd hadden bedacht. Hierdoor krijgen we meer inzicht in ons idee en kunnen we het verder uitwerken tot een prototype of ontwerp.
+<img width="1306" height="2000" alt="ddschets4" src="https://github.com/user-attachments/assets/d33e3941-1d3e-442a-b973-77cbaeea65f2" />
+<img width="1465" height="2000" alt="ddschets3" src="https://github.com/user-attachments/assets/048df33c-9f63-4aeb-b014-f6e23353f991" />
+<img width="1301" height="2000" alt="ddschets2" src="https://github.com/user-attachments/assets/3613d5b7-aa55-4efd-91db-141e97374aa9" />
+<img width="1500" height="1838" alt="ddschets1" src="https://github.com/user-attachments/assets/ea1481e4-b2a7-4ac6-a6b3-c94383a9eac9" />
+
+S0 - Typografie
+Voor de deep dive moesten we eerst deze 2 artikelen lezen als voorbereiding:
+https://www.type-together.com/how-to-choose-the-right-typeface
+https://arielsalminen.com/2016/typography-for-user-interfaces/
+
+Punten die ik eruit heb gehaald:
+
+Artikel 1: How to choose the right typeface
+
+Ik moet eerst bedenken waar de letter voor is. Een lange tekst heeft duidelijke, ruime letters nodig. Een grote titel mag smaller zijn.
+Ik gebruik liever weinig lettertypes. Een lettertype met cursief en vet is vaak genoeg.
+Ik check of alle tekens erin zitten, zoals é, ï en č. Anders kom je er te laat achter dat iets ontbreekt.
+De letter moet passen bij het medium en bij de boodschap. Hele dunne letters zijn slecht te lezen op een scherm. Een trouwkaart vraagt ook om een andere letter dan het nieuws.
+Bij het combineren kies ik lettertypes die elk een eigen taak hebben, in een andere grootte staan en dezelfde sfeer hebben.
+
+Artikel 2: Typography for User Interfaces
+
+In een app of website is bijna alles tekst. Goede tekst en letters zijn dus heel belangrijk.
+Losse woorden lees je langzamer dan zinnen. In een app staan vooral losse woorden, dus de letters moeten heel duidelijk zijn.
+Letters mogen niet op elkaar lijken. In Helvetica lijken de hoofdletter I en de kleine l bijna hetzelfde, dus dat is geen goede keuze.
+Het lettertype moet niet opvallen. Mensen moeten gewoon kunnen doen wat ze willen doen.
+Voor kleine schermen werken brede letters met veel ruimte ertussen het best. De lijnen van de letters mogen niet te dun zijn, anders zie je ze bijna niet.
 
 </details>
 
